@@ -1,1 +1,6 @@
 @charset "UTF-8";
+@media only screen  and (max-device-width: 825px){
+    div#navbarToggleExternalContent{
+        pointer-events: visible;
+    }
+}
