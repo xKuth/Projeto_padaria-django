@@ -10,7 +10,7 @@
         <tbody>
           <tr>
             <th>Summary</th>
-            <td>Project topics created by users to remind dates, organize the day, and important notes to rem</td>
+            <td>Projeto para controle de estoque e satisfação do cliente ao fazer pedidos.</td>
           </tr>
           <tr>
             <th>Author</th>
@@ -26,11 +26,14 @@
         </tbody>
       </table>
     </markdown>
-    <p>>Project of topics created by users to remind dates, organize the day, and important notes to be remembered, each user has their own unique page and topic (notes) and their data manipulation.</p>
+    <p>><h2>▪Project created to help suppliers and customers.</h2>
+        ▪️For suppliers: helps organize stock and control of daily products, avoiding unnecessary production and avoiding waste, for better profit and reference of products that are most produc
+        ▪️For customers: Project also designed for better customer satisfaction, with orders they want, avoiding missing items when going to the supplier, and better price results due to demand.
+    </p>
     <h1>SUPPORT THE PROJECT</h1>
     <p>For support in this project please enter contact with me on github or create a fork on pushes</p>
     <h1>INSTALING</h1>
     <p>Install this project add on the you path , and use easiest pip:</p>
-    <pre>pip install learning_logs</pre>
+    <pre>pip install Projeto_padaria</pre>
   </div>
 </div>
