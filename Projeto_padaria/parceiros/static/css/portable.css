@@ -1,9 +1,15 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-
-@media only screen  and (max-device-width: 825px){
-    div#navbarToggleExternalContent{
-        pointer-events: visible;
+@media screen and (max-width: 720px){
+    .upper_main_img{
+        height: 50%;
+        width: 100%;
+        display: block;
     }
+    .navbar-nav, .nav-response{
+        display: none;
+        visibility: hidden;
+        
+    }
+    
+    
 }
