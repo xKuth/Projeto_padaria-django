@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="{% static 'css/portable.css' %}">
-        <link rel="stylesheet" href="{% static 'css/desk.css' %}" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/mobile.css' %}">
+        <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css">
         <title>Pagina Principal</title>
         {% load bootstrap5 %}
         {% bootstrap_css %}
@@ -44,11 +44,14 @@
         <section class="upper_main_img">
             <h1>Fornecedores do dia</h1>
             <div class="anunnciment">
-                <div class="img_1">
+                <div class="text-img">
                     <h2>Pizza Italiana</h2>
                     <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
                     <button>Ver Loja</button>
                     <button>Fazer pedido</button>
+                </div>
+                <div class="img-anuciment">
+                    <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
                 </div>
                 <div class="img_2"></div>
                 <div class="img_3"></div>

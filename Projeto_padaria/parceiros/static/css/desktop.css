@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* Global config */
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+/* navbar */
+nav#not_block{
+    display: block;
+}
+
+/* main of anunciment */
+main{
+    padding-top: 1%;
+}
+section.upper_main_img{
+    height: 85vh;
+    background: black url('../imgs/background_img_upper.jpg') no-repeat;
+    color: black;
+}
+section.upper_main_img > h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.anunnciment{  
+    padding-top: 7%;
+    
+}
+
+div.text-img{
+    padding-left: 2%;
+    padding-top: 10%;
+    text-align: right;
+    float: left;
+    
+}
+
+img#pizza_anuciment{
+    float: right;
+    padding-right: 1%;
+    width: 40%;
+    
+}

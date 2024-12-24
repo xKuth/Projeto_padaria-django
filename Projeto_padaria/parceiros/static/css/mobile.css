@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px){
+    /*nav-bar*/
+    nav#not_block{
+        display: inline;
+    }
+    
+    ul#nav_not_vertical, li{
+        display: inline-block;
+        visibility: hidden;
+        list-style: none;       
+    }
+
+    /*section anuciment*/
+    .upper_main_img{
+        height: 50%;
+        width: 100%;
+        
+    }
+
+
+    
+    
+}
