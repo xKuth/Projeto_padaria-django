@@ -1,27 +1,27 @@
 @charset "UTF-8";
-
-main{
-    background-color: black;
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
 }
 
-s
+
 
 section.upper_main_img{
     background: black url('../imgs/background_img_upper.jpg') no-repeat;
     color: black;
-    padding: 7%;
-    border-radius: 1%;
-    margin: 5%;
 }
 
 .anunnciment{  
+    height: 75vh;
     width: 100%;
-    height: 80vh; 
     text-align: center;
     
 }
 
 section > h1{
     text-align: center;
-    padding-top: 1%;
+    padding-top: 5%;
 }

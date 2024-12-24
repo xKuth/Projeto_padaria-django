@@ -1,15 +1,18 @@
 @charset "UTF-8";
-@media screen and (max-width: 720px){
+@media screen and (max-width: 768px){
+    
     .upper_main_img{
         height: 50%;
         width: 100%;
-        display: block;
-    }
-    .navbar-nav, .nav-response{
-        display: none;
-        visibility: hidden;
         
     }
+    ul#nav_not_vertical , li{
+        display: inline-block;
+        list-style: none;
+        visibility: hidden;        
+    }
+
+
     
     
 }
