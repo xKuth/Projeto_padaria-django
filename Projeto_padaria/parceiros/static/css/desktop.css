@@ -39,18 +39,20 @@ div.text-img{
     float: left;
     padding-left: 2%;
     padding-top: 10%;
-    text-align: right;
+    margin-right: 30%;
 }
 div.text-img > h2{
     font-size: 50px;
 }
 div.text-img > p{
     font-size: 30px;
-    text-align: center;
+    text-align: right;
+
 }
 div.text-img > h2 , p{
     font-family: "Dancing Script", serif;
     color:aliceblue;
+    text-align: right;
 }
 .img-anoucement{
     display: inline;
@@ -68,10 +70,17 @@ img#pizza_anuciment{
     color: black;
     background-color: yellow;
     border-radius: 5%;
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.562);
-    font-size: 40px;
-    
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.562);
+    font-size: 30px;
+    float: right;
+    margin: 1%;
 }
 .button_annoucement-nonebg{
     border: 3px dashed white;
+    box-shadow: 2px 5px 5px black;
+    float: right;
+    border-radius: 5%;
+    font-size: 28px;
+    margin: 1%;
+  
 }
