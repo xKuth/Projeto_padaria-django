@@ -10,8 +10,8 @@ body, html{
 nav#not_block{
     text-decoration: underline;
     color: wheat;
+    padding-right: 5%;
 }
-
 /* main of anunciment */
 main{
     padding-top: 2%;
@@ -28,10 +28,12 @@ section.upper_main_img{
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.795);
 }
 section.upper_main_img > div.container > h1{
-    font-family: "Abel", serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     color: aliceblue;
     text-align: center;
+    text-decoration: underline;
+    
     padding-top: 5%;
 }
 
@@ -45,15 +47,13 @@ div.text-img{
     float: left;
     padding-left: 1%;
     padding-top: 10%;
-    
+    width: 50%;
 }
 div.text-img > h2{
     font-size: 50px;
 }
 div.text-img > p{
     font-size: 30px;
-
-
 }
 div.text-img > h2 , p{
     font-family: "Dancing Script", serif;
@@ -62,16 +62,16 @@ div.text-img > h2 , p{
 }
 .img-anoucement{
     display: inline;
-    float: right;
-    min-width: 200px;
-    
+    margin-left: 2%;
+    max-width: 100%;
+    max-height: 50%;
 }
 
 img#pizza_anuciment{
-    padding-right: 1%;
-    width: 400px;
-    
+    display: inline;
+    width:500px;
 }
+
 .button_annoucement{
     color: black;
     background-color: yellow;
@@ -89,4 +89,15 @@ img#pizza_anuciment{
     font-size: 28px;
     margin: 1%;
   
+}
+/* Mid section annoucement */
+.mid_main_anouciment{
+    background-color: whitesmoke;
+    margin-top: 1%;
+    border-radius: 2%;
+    height: 50vh;
+}
+.paragraphy_mid > p{
+    color: black;
+    size: 50%;
 }
