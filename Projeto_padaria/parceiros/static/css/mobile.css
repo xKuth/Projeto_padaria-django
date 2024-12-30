@@ -17,6 +17,14 @@
         width: 100%;
         
     }
+    .text-img > h2{
+        text-align: center;
+    }
+    div.text-img > p{
+        text-align: center;
+        float: none;
+
+    }
 
 
     

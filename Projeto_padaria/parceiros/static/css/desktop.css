@@ -4,26 +4,32 @@
 body, html{
     margin: 0;
     padding: 0;
-    background-color: rgba(180, 176, 176, 0.507);
 }
 
 /* navbar */
 nav#not_block{
-    display: block;
+    text-decoration: underline;
+    color: wheat;
 }
 
 /* main of anunciment */
 main{
-    padding-top: 1%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgba(0, 0, 0, 0.774);
 }
 section.upper_main_img{
-    height: 85vh;
+    height: 86vh;
+    width: 100%;
+    border-radius: 1%;
     background: black url('../imgs/background_img_upper.jpg') no-repeat;
     color: black;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.795);
 }
-section.upper_main_img > h1{
+section.upper_main_img > div.container > h1{
     font-family: "Abel", serif;
+    font-size: 4em;
     color: aliceblue;
     text-align: center;
     padding-top: 5%;
@@ -37,7 +43,7 @@ section.upper_main_img > h1{
 div.text-img{
     display: inline;
     float: left;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 10%;
     
 }
@@ -46,7 +52,7 @@ div.text-img > h2{
 }
 div.text-img > p{
     font-size: 30px;
-    text-align: right;
+
 
 }
 div.text-img > h2 , p{
@@ -56,9 +62,9 @@ div.text-img > h2 , p{
 }
 .img-anoucement{
     display: inline;
-    align-items: center;
     float: right;
-    padding-left: 20%;
+    min-width: 200px;
+    
 }
 
 img#pizza_anuciment{

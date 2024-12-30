@@ -23,7 +23,7 @@
         </div><!-- End navation mobile -->
 
     </header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark justify-content-end" id="not_block"><!-- Navegation desktop -->
+    <nav class="navbar justify-content-end navbar-expand-md fixed-top navbar-dark bg-dark" id="not_block"><!-- Navegation desktop -->
         <ul class="navbar-nav" id="nav_not_vertical">
             <li class="nav-item" id="nav_not_vertical">
                 <a class="nav-link active" aria-current="page" href="#">Inico</a>
@@ -42,20 +42,19 @@
     <br>
     <main>
         <section class="upper_main_img">
-            <h1>Fornecedores do dia</h1>
-            <div class="anunnciment">
-                <div class="text-img">
-                    <h2>Pizza Italiana</h2>
-                    <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
-                    <button class="button_annoucement">Ver Loja</button>
-                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+            <div class="container">
+                <h1>Fornecedores do dia</h1>
+                <div class="anunnciment">
+                    <div class="text-img">
+                        <h2>Pizza Italiana</h2>
+                        <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
+                        <button class="button_annoucement">Ver Loja</button>
+                        <button class="button_annoucement-nonebg">Fazer pedido</button>
+                    </div>
+                    <div class="img-anoucement">
+                        <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
+                    </div>
                 </div>
-                <div class="img-anoucement">
-                    <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
-                </div>
-                <div class="img_2"></div>
-                <div class="img_3"></div>
-            </img>
             </div>
              
         </section>
