@@ -39,7 +39,7 @@ div.text-img{
     float: left;
     padding-left: 2%;
     padding-top: 10%;
-    margin-right: 30%;
+    
 }
 div.text-img > h2{
     font-size: 50px;
@@ -57,8 +57,8 @@ div.text-img > h2 , p{
 .img-anoucement{
     display: inline;
     align-items: center;
-    float: left;
-    padding-left: 2%;
+    float: right;
+    padding-left: 20%;
 }
 
 img#pizza_anuciment{
