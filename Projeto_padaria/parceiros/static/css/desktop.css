@@ -107,5 +107,8 @@ img#pizza_anuciment{
     font-size: 5vw;
     padding-right: 10%;
     padding-top: 10%;
-
+}
+section#background_bread{
+    background: black url('../imgs/background_img_bread.png');
+    background-size: cover;
 }
