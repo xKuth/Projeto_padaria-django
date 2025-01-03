@@ -4,6 +4,7 @@
 body, html{
     margin: 0;
     padding: 0;
+    background-color: rgba(2, 2, 1, 0.753);
 }
 
 /* navbar */
@@ -19,7 +20,7 @@ main{
     padding-top: 2%;
     padding-right: 4%;
     padding-left: 4%;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: rgba(2, 2, 1, 0.753);
 }
 section.upper_main_img{
     background: black url('../imgs/background_img_upper.jpg') no-repeat;
@@ -111,4 +112,20 @@ img#pizza_anuciment{
 section#background_bread{
     background: black url('../imgs/background_img_bread.png');
     background-size: cover;
+}
+/* footer */
+footer {
+    background-color: rgba(2, 2, 1, 0.849);
+    color: white;
+    box-shadow: 3px 5px 5px 5px rgb(253, 251, 251);
+    padding-top: 2%;
+}
+
+.footer_inline > li{
+    display: inline-block;
+    padding: 1%;
+}
+
+footer > p{
+    text-align: center;
 }
