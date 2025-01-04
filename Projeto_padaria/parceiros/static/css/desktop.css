@@ -123,9 +123,13 @@ footer {
 
 .footer_inline > li{
     display: inline-block;
+    font-size: 1.5vw;
     padding: 1%;
 }
 
-footer > p{
-    text-align: center;
+.footer_inline > p{
+    display: inline;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
 }
