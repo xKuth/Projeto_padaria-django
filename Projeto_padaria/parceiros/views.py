@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def PaginaP(request):
     return render(request, 'html/pagina01.html')
+
+
+def suppliersP(request):
+    return render(request, 'html/supplier.html')

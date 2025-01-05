@@ -5,4 +5,5 @@ from Projeto_padaria import settings
 
 urlpatterns = [
     path('', views.PaginaP, name='pagina001'),
+    path('/suppliers', views.suppliersP , name='suppliers')
 ] 
