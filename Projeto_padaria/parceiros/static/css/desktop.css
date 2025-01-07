@@ -146,9 +146,20 @@ footer {
 
 /* enterprise css main*/
 
+.section_enterprise{
+    background-color: rgba(66, 25, 180, 0.719);
+}
+
 .img-interprise{
     display: flex;
-    justify-content: center;
-    gap: 3%;
-    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 5%;
+
 }   
+.layer-enterprise{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
