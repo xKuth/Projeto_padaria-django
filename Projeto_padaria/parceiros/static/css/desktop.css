@@ -114,6 +114,7 @@ img#pizza_anuciment{
     height: 7vh;
 }
 /* Mid section annoucement */
+
 .mid_main_anouciment{
     background: black url('../imgs/background_mid.png') no-repeat;
     background-size: cover;
@@ -121,6 +122,7 @@ img#pizza_anuciment{
     border-radius: 2%;
     height: 40vh;
 }
+
 .paragraphy_mid > p{
     font-family: 'Abel';
     color: black;
