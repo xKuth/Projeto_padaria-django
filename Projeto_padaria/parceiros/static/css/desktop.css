@@ -122,11 +122,18 @@ img#pizza_anuciment{
     height: 40vh;
 }
 .paragraphy_mid > p{
+    font-family: 'Abel';
     color: black;
     font-size: 5vw;
-    padding-right: 10%;
-    padding-top: 8%;
+    margin-top: 7%;
 }
+.p_mid_section{
+    background-color: #AAA398;
+    padding: 1%;
+    float: right;
+    border-radius: 4%;
+}
+
 section#background_bread{
     background: black url('../imgs/background_img_bread.png');
     background-size: cover;
