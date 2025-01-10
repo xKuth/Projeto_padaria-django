@@ -136,11 +136,11 @@ footer {
     background-color: rgba(2, 2, 1, 0.849);
     color: white;
     box-shadow: 3px 5px 5px 5px rgb(253, 251, 251);
-    padding-top: 2%;
- 
+    padding-top: 1%;
 }
 .footer_info{
     max-width: 70vw;
+    text-align: center;
 }
 
 .footer_inline > li{
@@ -149,12 +149,7 @@ footer {
     padding: 1%;
 }
 
-.footer_inline > p{
-    display: inline;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
-}
+
 /* enterprise nav top the main */
 nav#nav-enterprise{
     margin-top: 2%;
