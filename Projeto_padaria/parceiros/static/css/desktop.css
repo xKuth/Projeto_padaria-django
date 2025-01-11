@@ -184,13 +184,22 @@ nav#nav-enterprise{
 }   
 .layer-enterprise{
     display: flex;
-    font-size: 1vw;
+    font-size: 2vw;
     justify-content: space-around;
-}
-
-.layer-enterprise > h2{
     font-family: Abel;
 }
+
+.content_enterprise{
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 2px black;
+    border-radius: 4%;
+    padding: 1%;
+}
+.content_enterprise:hover{
+    background-color: rgba(131, 125, 38, 0.685);
+    animation: 0.3s;
+}
+
 
 .enterprise_img{
     width: 300px;
