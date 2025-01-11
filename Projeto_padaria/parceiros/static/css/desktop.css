@@ -197,7 +197,7 @@ nav#nav-enterprise{
 }
 .content_enterprise:hover{
     background-color: rgba(131, 125, 38, 0.685);
-    animation: 0.3s;
+    animation: .1s;
 }
 
 

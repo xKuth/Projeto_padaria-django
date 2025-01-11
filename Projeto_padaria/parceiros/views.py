@@ -8,3 +8,6 @@ def PaginaP(request):
 
 def suppliersP(request):
     return render(request, 'html/supplier.html')
+
+def infoP(request):
+    return render(request, 'html/info.html')
