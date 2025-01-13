@@ -208,3 +208,19 @@ nav#nav-enterprise{
     border-radius: 2%;
     box-shadow: 1px 1px 2px 2px black;
 }
+/* information main page */
+.section_info{
+    padding-top: 4%;
+    margin-top: 4%;
+    background: url('../imgs/background_info.png') black no-repeat;
+    background-size: cover;
+    height:30vh;
+}
+.title_info{
+    color: white;
+    font-size: 2vw;
+}
+.p_info{
+    font-family: 'Abel';
+    color: rgb(231, 229, 229);
+}
