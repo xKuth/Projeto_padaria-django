@@ -8,10 +8,48 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768">
     <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300">
-    <title>Document</title>
+    <title>Photos page</title>
 </head>
 <body>
-    {% block header %}{% endblock header %}
+    {% block header %}
+
+    <main>
+        <nav class="navbar navbar-light bg-light" id="nav-enterprise">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Veja Melhores fotos dos produtos : <br>
+                    <i class="bi bi-geo-alt"> Fotos/empresas:</i></a>
+            </div>
+        </nav>
+        <section class="section_enterprise" id="Photos_bg">
+            <div class="container">
+
+                <div class="img-interprise">
+                    <div class="content_enterprise_photos">
+                        
+                        <h2 class="layer-enterprise">Enterprise 1</h2>
+                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
+
+                    </div>
+
+                    <div class="content_enterprise_photos">
+
+                        <h2 class="layer-enterprise">Enterprise 2</h2>
+                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
+
+                    </div>
+
+                    <div class="content_enterprise_photos">
+
+                        <h2 class="layer-enterprise">Enterprise 3</h2>
+                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    {% endblock header %}
     {% block footer %}{% endblock footer %}
     
 </body>
