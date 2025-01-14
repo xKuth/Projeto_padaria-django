@@ -11,3 +11,6 @@ def suppliersP(request):
 
 def infoP(request):
     return render(request, 'html/info.html')
+
+def photosP(request):
+    return render(request, 'html/photos.html')
