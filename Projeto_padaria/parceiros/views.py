@@ -1,7 +1,5 @@
 from django.shortcuts import render
 # Create your views here.
-
-
 def PaginaP(request):
     return render(request, 'html/pagina01.html')
 
@@ -9,8 +7,12 @@ def PaginaP(request):
 def suppliersP(request):
     return render(request, 'html/supplier.html')
 
+
 def infoP(request):
     return render(request, 'html/info.html')
 
+
 def photosP(request):
     return render(request, 'html/photos.html')
+
+

@@ -11,19 +11,23 @@ body, html{
 
 /* navbar */
 nav#not_block{
-    text-decoration: underline;
     color: wheat;
     padding-right: 2%;
+}
+li.nav-item{
+    text-decoration: underline;
 }
 
 ul#nav_not_vertical > li{
     font-size: 1.5vw;
+    
 }
 
 .nav-link.active:hover{
     background-color: rgba(255, 255, 255, 0.705);
     animation: 0.2;
 }
+
 /* main of anunciment */
 main{
     height: 88%;
