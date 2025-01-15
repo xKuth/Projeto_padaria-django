@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Projeto_padaria',
     'parceiros',
+    'users',
     'bootstrap5',
 ]
 

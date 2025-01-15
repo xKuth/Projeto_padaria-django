@@ -13,7 +13,7 @@ body, html{
 nav#not_block{
     text-decoration: underline;
     color: wheat;
-    padding-right: 5%;
+    padding-right: 2%;
 }
 
 ul#nav_not_vertical > li{
