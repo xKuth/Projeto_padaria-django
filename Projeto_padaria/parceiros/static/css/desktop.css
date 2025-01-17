@@ -146,10 +146,18 @@ section#background_bread{
 }
 /* footer */
 footer {
-    background-color: rgba(2, 2, 1, 0.849);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    text-align: center;
+    width: 100%;
     color: white;
+    text-align: center;
+    background-color: rgba(2, 2, 1, 0.849);
     box-shadow: 3px 5px 5px 5px rgb(253, 251, 251);
-    padding-top: 1%;
+    
 }
 .footer_info{
     max-width: 70vw;
@@ -261,8 +269,6 @@ section#Photos_bg{
 div.mb-3 > label{
     color: white;
 }
-
-
 
 /* section register main */
 section#bg_register{
