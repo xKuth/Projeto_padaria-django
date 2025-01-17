@@ -247,3 +247,24 @@ section#Photos_bg{
     background-color: rgba(131, 44, 38, 0.685);
     animation: .1s;
 }
+
+/* section login main */
+
+.section_login{
+    padding: 10%;
+    margin-top: 3%;
+    background: black url('../imgs/login_page.png') no-repeat;
+    background-size: cover;
+    box-shadow: 0px 5px 3px 3px black;
+    
+}
+div.mb-3 > label{
+    color: white;
+}
+
+
+
+/* section register main */
+section#bg_register{
+    background: black url('../imgs/register_page.png');
+}

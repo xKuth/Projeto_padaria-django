@@ -4,5 +4,6 @@ from . import views
 from Projeto_padaria import settings
 
 urlpatterns = [ 
-    path('login', views.logonP, name='logon')
+    path('login', views.logonP, name='logon'),
+    path('register', views.registerP, name='register')
 ]
