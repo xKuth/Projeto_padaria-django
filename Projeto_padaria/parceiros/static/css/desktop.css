@@ -270,6 +270,11 @@ div.mb-3 > label{
     color: white;
 }
 
+div#emailHelp{
+    color: white;
+    text-decoration: underline;
+}
+
 /* section register main */
 section#bg_register{
     background: black url('../imgs/register_page.png');
