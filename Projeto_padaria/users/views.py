@@ -1,18 +1,18 @@
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login
-from django.contrib.auth.models import user
+from django.contrib.auth.models import User
+from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
 def logonP(request):
-    if request.User
-    
-    username = request.POST['username']
-    password = request.POST['password']
-    authentic = authenticate(request, username=username, password=password)
-
-    if authentic is not None:
-        login(request, authentic)
+    if request == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        authentic = authenticate(request, username=username, password=password)
+        if authentic is not None:
+            login(request, authentic)
     return render(request, 'html/login.html')
 
 def registerP(request):
