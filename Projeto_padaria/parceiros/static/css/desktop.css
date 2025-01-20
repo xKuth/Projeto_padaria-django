@@ -27,6 +27,9 @@ ul#nav_not_vertical > li{
     background-color: rgba(255, 255, 255, 0.705);
     animation: 0.2;
 }
+div#not_underline > i{
+    font-size: 0.5em;
+}
 
 /* main of anunciment */
 main{
