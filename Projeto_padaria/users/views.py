@@ -13,6 +13,8 @@ def logonP(request):
         authentic = authenticate(request, username=username, password=password)
         if authentic is not None:
             login(request, authentic)
+        else:
+            return redirect('pagina001.html')
     return render(request, 'html/login.html')
 
 def registerP(request):
