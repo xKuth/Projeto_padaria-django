@@ -3,6 +3,7 @@ from django.forms import ModelForm
 from django import forms
 
 # Create your models here.
-'''class RegistrationForm(forms.ModelForm):
-    password = models.
-    Class Meta:'''
+class RegistrationForm(models.Model):
+    user = models.CharField(max_length=20)
+    password = models.CharField(max_length=64)
+    
