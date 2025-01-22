@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
 from django.shortcuts import redirect
-from .forms import LoginForms
+from .forms import LoginForms, RegisterForm
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
@@ -21,4 +21,6 @@ def logonP(request):
     return render(request, 'html/login.html', context)
 
 def registerP(request):
-    return render(request, 'html/register.html')
+    form = RegisterForm()
+    context = {'form': form}
+    return render(request, 'html/register.html', context)
