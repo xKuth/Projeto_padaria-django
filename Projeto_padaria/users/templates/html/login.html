@@ -16,8 +16,9 @@
         <section class="section_login">
             <form action="{% url 'logon'}" method="post">
                 {% csrf_token %}
-                {{ form.as_p }}
+                
                     <div class="mb-3">
+                        {{ form.as_p }}
                         <label for="Username" class="form-label">Úsuario:</label>
                         <input type="text" class="form-control" aria-describedby="Nome de Úsuario" placeholder="Nome de úsuario: ">
                         <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
