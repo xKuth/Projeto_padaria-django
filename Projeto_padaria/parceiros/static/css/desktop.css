@@ -270,6 +270,7 @@ section#Photos_bg{
     
 }
 div.mb-3 > label{
+    float: left;
     color: white;
 }
 

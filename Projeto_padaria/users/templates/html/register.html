@@ -16,22 +16,9 @@
         <section class="section_login" id="bg_register">
             <form action="{% url 'register' %}" method="post">
                 {% csrf_token %}
-                {{ form.as_p }}
+                
                 <div class="mb-3">
-                    <label for="Username" class="form-label">Úsuario:</label>
-                    <input type="text" class="form-control" aria-describedby="Nome de Úsuario" placeholder="Nome de úsuario: ">
-                    <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
-                    
-                </div>
-                <div class="mb-3">
-                    <label for="Password" class="form-label">Senha:</label>
-                    <input type="password" class="form-control" aria-describedby="Senha" placeholder="senha do úsuario: ">
-                    <div id="emailHelp" class="form-text">Dígite sua senha:</div>
-                </div>
-                <div class="mb-3">
-                    <label for="Password" class="form-label">Repita a Senha:</label>
-                    <input type="password" class="form-control" aria-describedby="Senha" placeholder="Digite novamente sua senha:">
-                    <div id="emailHelp" class="form-text">Dígite novamente sua senha:</div>
+                    {{ form.as_p }}
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
