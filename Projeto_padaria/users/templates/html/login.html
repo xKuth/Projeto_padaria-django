@@ -19,10 +19,8 @@
                 {% csrf_token %}
                     
                     <div class="mb-3">
-                        {% for forms in form %}
-                            {% if forms == {'form_user'} %}
-                                {{ form }}
-                            {% endif %}
+                        {% for i in form %}
+                            {{ i }}
                         {% endfor %}
                     <button type="submit" class="btn btn-primary">Submit</button>
 
