@@ -9,7 +9,7 @@ class LoginForms(formulario.Form):
     form_user = formulario.CharField(min_length=5, max_length=20, 
                                      widget=formulario.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nome do úsuario: '}), label='Usuario:')
     form_password = formulario.CharField(min_length=8, max_length=64, 
-                                         widget=formulario.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Nome do úsuario: '}), label='Senha: ')
+                                         widget=formulario.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Senha do úsuario: '}), label='Senha: ')
     
 class RegisterForm(formulario.Form):
 
