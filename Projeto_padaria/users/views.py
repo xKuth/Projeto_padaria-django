@@ -17,8 +17,7 @@ def logonP(request):
             login(request, authentic)
         else:
             return redirect('pagina001.html')
-    numero = len(form)
-    context = {'formu': numero}
+    context = {'formu': form}
     return render(request, 'html/login.html', context)
 
 def registerP(request):

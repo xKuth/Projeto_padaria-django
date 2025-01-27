@@ -1,18 +1,15 @@
-from django import forms as formulario
+from django import forms 
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
-from django.contrib.auth.forms import UserCreationForm, forms
+from django.contrib.auth.forms import UserCreationForm
 
 
-class LoginForms(formulario.Form):
-
-    form_user = formulario.CharField(min_length=5, max_length=20, 
-                                     widget=formulario.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nome do úsuario: '}), label='Usuario:')
-    form_password = formulario.CharField(min_length=8, max_length=64, 
-                                         widget=formulario.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Senha do úsuario: '}), label='Senha: ')
+class LoginForms(forms.Form):
+    user_name = forms.CharField(help_text='Adicione seu nome: ', widget=forms.TextInput(attrs={'class': 'form-control'}))
+    password_form = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
     
-class RegisterForm(formulario.Form):
+class RegisterForm(forms.Form):
 
-    form_user = formulario.CharField(min_length=5, max_length=20, widget=formulario.TextInput(attrs={'class': 'form-control'}), label='Usuario: ')
-    form_password = formulario.CharField(min_length=5, max_length=20, widget=formulario.TextInput(attrs={'class': 'form-control'}), label='Senha: ')
-    form_password2 = formulario.CharField(min_length=5, max_length=20, widget=formulario.TextInput(attrs={'class': 'form-control'}), label='Repita a senha: ')
+    form_user = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}), label='Usuario: ')
+    form_password = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}), label='Senha: ')
+    form_password2 = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}), label='Repita a senha: ')
