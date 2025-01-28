@@ -18,10 +18,31 @@
                 {% csrf_token %}
                 
                 <div class="mb-3">
+                    <label for="Username" class="form-label">Úsuario:</label>
                     {{ form.form_user }}
+                    <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
+                    <br>
+
+                    <label for="Username" class="form-label">Digite uma senha:</label>
+                    {{ form.form_password }}
+                    <div id="emailHelp" class="form-text">Dígite uma senha que contenha:<br>
+                        <ul>
+                            <li>Possua pelo menos 1 letra maiúscula</li>
+                            <li>Possua pelo menos 1 caracter especial ex:(@,#,$,%)</li>
+                            <li>Possua mais de 8 carácteres</li>
+                            <li>Não ultilize numeros em sequencia como:(1234)</li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <label for="Username" class="form-label">Repita a senha digitada:</label>
+                    {{ form.form_password2 }}
+                    <br>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+
         </section>
             
     </main>
