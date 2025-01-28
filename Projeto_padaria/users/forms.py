@@ -5,8 +5,10 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 class LoginForms(forms.Form):
-    user_name = forms.CharField(help_text='Adicione seu nome: ', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    password_form = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    user_form = forms.CharField(widget=forms.TextInput(
+        attrs={'class': 'form-control', 'placeholder':'Digite o nome de úsuario:'}))
+    password_form = forms.CharField(widget=forms.PasswordInput(
+        attrs={'class': 'form-control', 'placeholder':'Digite a senha de úsuario:'}))
     
 class RegisterForm(forms.Form):
 

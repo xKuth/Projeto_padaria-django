@@ -19,8 +19,15 @@
                 {% csrf_token %}
                     
                     <div class="mb-3">
-                        {{ formu|length }}
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                        <label for="Username" class="form-label">Úsuario:</label>
+                        {{ formu.password_form }}
+                        <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
+                        <label for="Password" class="form-label">Senha:</label>
+                        {{ formu.password_form }}
+                        <div id="emailHelp" class="form-text">Dígite a senha do úsuario:</div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
 
             </form>
         </section>
