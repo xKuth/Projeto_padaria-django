@@ -10,15 +10,18 @@ from django.contrib.auth.decorators import login_required
 def logonP(request):
     form = LoginForms()
     if request == 'POST':
-        username = request.POST['username']
-        password = request.POST['password']
-        authentic = authenticate(request, username=username, password=password)
+        form = LoginForms(request.POST)
+        if form.is_valid:
+            username = form.cleaned_data('user_form')
+            password = form.cleaned_data('password_form')
+            authentic = authenticate(request, username='user_form', password='password_form')
         if authentic is not None:
             login(request, authentic)
         else:
-            return redirect('pagina001.html')
+            return redirect('register')
     context = {'formu': form}
     return render(request, 'html/login.html', context)
+
 
 def registerP(request):
     form = RegisterForm()
@@ -30,9 +33,11 @@ def registerP(request):
                 password_form = form.cleaned_data('form_pasword')
                 password_form2 = form.cleaned_data('form_password2')
                 if password_form == password_form2:
-                    form.save()
-                    new_user = authenticate(request, username='user_form', password='password_form')
-                    login(request, new_user)
+                    user_save = form.save()
+                    new_user = authenticate(request, username=user_form, password=password_form)
+                    login(request, user_save)
+                    if new_user:
+                        redirect('/')
             
 
     context = {'form': form}
