@@ -1,20 +1,24 @@
-from django import forms 
+from django.contrib.auth.forms import UserCreationForm, forms
+from django import forms as formualro_login
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
-from django.contrib.auth.forms import UserCreationForm
 
 
-class LoginForms(forms.Form):
+
+class LoginForms(forms.ModelForm):
     user_form = forms.CharField(widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Digite o nome de úsuario:'}))
     password_form = forms.CharField(widget=forms.PasswordInput(
         attrs={'class': 'form-control', 'placeholder':'Digite a senha de úsuario:'}))
     
-class RegisterForm(forms.Form):
+class RegisterForm(UserCreationForm):
 
-    form_user = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
+    username = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Digite o nome de úsuario:'}))
-    form_password = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
+    password = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Digite uma senha valida:'}))
-    form_password2 = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
+    password2 = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Repita sua senha:'}))
+    class Meta:
+        model = User
+        fields = ['username', 'password', 'password2']

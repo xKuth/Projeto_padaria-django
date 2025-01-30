@@ -25,19 +25,23 @@ def logonP(request):
 
 def registerP(request):
     form = RegisterForm()
-    if request == 'POST':
+    if request.method == 'POST':
         form = RegisterForm(request.POST)
         if form is not None:
+            print('passou aki')
             if form.is_valid():
-                user_form = form.cleaned_data('form_user')
-                password_form = form.cleaned_data('form_pasword')
-                password_form2 = form.cleaned_data('form_password2')
+                user_form = request.POST.get('username')
+                password_form = request.POST.get('password')
+                password_form2 = request.POST.get('password2')
+                print('pegou todos elementos')
+                print(user_form, password_form, password_form2)
                 if password_form == password_form2:
+                    print('senha igual')
                     user_save = form.save()
                     new_user = authenticate(request, username=user_form, password=password_form)
                     login(request, user_save)
                     if new_user:
-                        redirect('/')
+                        redirect('pagina001')
             
 
     context = {'form': form}
