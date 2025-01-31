@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 
 
 
-class LoginForms(forms.ModelForm):
+class LoginForms(forms.Form):
     user_form = forms.CharField(widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Digite o nome de úsuario:'}))
     password_form = forms.CharField(widget=forms.PasswordInput(

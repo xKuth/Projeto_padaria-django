@@ -12,8 +12,8 @@ def logonP(request):
     if request == 'POST':
         form = LoginForms(request.POST)
         if form.is_valid:
-            username = form.cleaned_data('user_form')
-            password = form.cleaned_data('password_form')
+            username = request.Post.get('user_form')
+            password = request.Post.get('password_form')
             authentic = authenticate(request, username='user_form', password='password_form')
         if authentic is not None:
             login(request, authentic)
@@ -29,7 +29,7 @@ def registerP(request):
         form = RegisterForm(request.POST)
         if form is not None:
             print('passou aki')
-            if form.is_valid():
+            if form.is_valid:
                 user_form = request.POST.get('username')
                 password_form = request.POST.get('password')
                 password_form2 = request.POST.get('password2')
@@ -42,6 +42,9 @@ def registerP(request):
                     login(request, user_save)
                     if new_user:
                         redirect('pagina001')
+            else:
+                print('formulario nao e valido')
+                redirect('/')
             
 
     context = {'form': form}
