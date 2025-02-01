@@ -26,10 +26,10 @@ def logonP(request):
 def registerP(request):
     form = RegisterForm()
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
+        form = RegisterForm(data=request.POST)
         if form is not None:
             print('passou aki')
-            if form.is_valid:
+            if form.is_valid():
                 user_form = request.POST.get('username')
                 password_form = request.POST.get('password')
                 password_form2 = request.POST.get('password2')
@@ -37,7 +37,7 @@ def registerP(request):
                 print(user_form, password_form, password_form2)
                 if password_form == password_form2:
                     print('senha igual')
-                    user_save = form.save()
+                    user_save = form.save(commit=False)
                     new_user = authenticate(request, username=user_form, password=password_form)
                     login(request, user_save)
                     if new_user:

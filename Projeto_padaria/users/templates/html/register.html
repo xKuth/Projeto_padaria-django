@@ -15,9 +15,9 @@
     <main>
         <section class="section_login" id="bg_register">
             <form action="{% url 'register' %}" method="post">
-                {% csrf_token %}
-                
+                    
                 <div class="mb-3">
+                    {% csrf_token %}
                     <label for="Username" class="form-label">Úsuario:</label>
                     {{ form.username }}
                     <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
