@@ -18,27 +18,27 @@
                     
                 <div class="mb-3">
                     {% csrf_token %}
-                    <label for="Username" class="form-label">Úsuario:</label>
-                    {{ form.username }}
-                    <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
-                    <br>
-                    <label for="Username" class="form-label">Digite uma senha:</label>
-                    {{ form.password }}
-                    <div id="emailHelp" class="form-text">Dígite uma senha que contenha:<br>
-                        <ul>
-                            <li>Possua pelo menos 1 letra maiúscula</li>
-                            <li>Possua pelo menos 1 caracter especial ex:(@,#,$,%)</li>
-                            <li>Possua mais de 8 carácteres</li>
-                            <li>Não ultilize numeros em sequencia como:(1234)</li>
-                        </ul>
-                    </div>
-                    <br>
+                        <label for="Username" class="form-label">Úsuario:</label>
+                        {{ form.username }}
+                        <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
+                        <br>
+                        <label for="Username" class="form-label">Digite uma senha:</label>
+                        {{ form.password1 }}
+                        <div id="emailHelp" class="form-text">Dígite uma senha que contenha:<br>
+                            <ul>
+                                <li>Possua pelo menos 1 letra maiúscula</li>
+                                <li>Possua pelo menos 1 caracter especial ex:(@,#,$,%)</li>
+                                <li>Possua mais de 8 carácteres</li>
+                                <li>Não ultilize numeros em sequencia como:(1234)</li>
+                            </ul>
+                        </div>
+                        <br>
 
-                    <label for="Username" class="form-label">Repita a senha digitada:</label>
-                    {{ form.password2 }}
-                    <br>
+                        <label for="Username" class="form-label">Repita a senha digitada:</label>
+                        {{ form.password2 }}
+                        <br>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </form>
 

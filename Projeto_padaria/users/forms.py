@@ -16,11 +16,11 @@ class RegisterForm(UserCreationForm):
 
     username = forms.CharField(min_length=5, max_length=20, widget=forms.TextInput(
         attrs={'class': 'form-control', 'placeholder':'Digite o nome de úsuario:'}))
-    password = forms.CharField(min_length=8, max_length=64, widget=forms.PasswordInput(
+    password1 = forms.CharField(min_length=8, max_length=64, widget=forms.PasswordInput(
         attrs={'class': 'form-control', 'placeholder':'Digite uma senha valida:'}))
     password2 = forms.CharField(min_length=8, max_length=64, widget=forms.PasswordInput(
         attrs={'class': 'form-control', 'placeholder':'Repita sua senha:'}))
     class Meta:
         model = User
-        fields = ['username', 'password', 'password2']
+        fields = ['username', 'password1', 'password2']
 

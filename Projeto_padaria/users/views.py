@@ -24,14 +24,13 @@ def logonP(request):
 
 
 def registerP(request):
-    form = RegisterForm()
     if request.method == 'POST':
-        form = RegisterForm(data=request.POST)
-        if form is not None:
-            print('passou aki')
-            if form.is_valid():
+        form_req = RegisterForm(request.POST)
+        if form_req is not None:
+            print('passou aki', form_req)
+            if form_req.is_valid():
                 user_form = request.POST.get('username')
-                password_form = request.POST.get('password')
+                password_form = request.POST.get('password1')
                 password_form2 = request.POST.get('password2')
                 print('pegou todos elementos')
                 print(user_form, password_form, password_form2)
@@ -46,6 +45,6 @@ def registerP(request):
                 print('formulario nao e valido')
                 redirect('/')
             
-
+    form = RegisterForm()
     context = {'form': form}
     return render(request, 'html/register.html', context)
