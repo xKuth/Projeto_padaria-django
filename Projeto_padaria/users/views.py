@@ -42,6 +42,7 @@ def registerP(request):
                     if new_user:
                         redirect('pagina001')
             else:
+                print(form_req.errors)
                 print('formulario nao e valido')
                 redirect('/')
             
