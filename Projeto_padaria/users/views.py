@@ -36,10 +36,12 @@ def registerP(request):
                 print(user_form, password_form, password_form2)
                 if password_form == password_form2:
                     print('senha igual')
-                    user_save = form.save(commit=False)
-                    new_user = authenticate(request, username=user_form, password=password_form)
-                    login(request, user_save)
+                    new_user = authenticate(username=user_form, password=password_form)
+                    login(request, new_user)
+                    form_req.save()
+                    print('salvou o ususario')
                     if new_user:
+                        print('redirecionando ....')
                         redirect('pagina001')
             else:
                 print(form_req.errors)
