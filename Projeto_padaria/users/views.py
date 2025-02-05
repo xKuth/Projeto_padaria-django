@@ -11,12 +11,13 @@ def logonP(request):
     form = LoginForms()
     if request == 'POST':
         form = LoginForms(request.POST)
-        if form.is_valid:
+        if form.is_valid():
             username = request.Post.get('user_form')
             password = request.Post.get('password_form')
-            authentic = authenticate(request, username='user_form', password='password_form')
+            authentic = authenticate(request, username=username, password=password)
         if authentic is not None:
             login(request, authentic)
+            return redirect('login')
         else:
             return redirect('register')
     context = {'formu': form}

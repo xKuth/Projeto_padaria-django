@@ -14,20 +14,18 @@
     {% block header %}
     <main>
         <section class="section_login">
-            <form action="{% url 'logon'}" method="post">
-
-                {% csrf_token %}
-                    
-                    <div class="mb-3">
-                        <label for="Username" class="form-label">Úsuario:</label>
-                        {{ formu.password_form }}
-                        <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
-                        <label for="Password" class="form-label">Senha:</label>
-                        {{ formu.password_form }}
-                        <div id="emailHelp" class="form-text">Dígite a senha do úsuario:</div>
-                        <br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+            <form action="{% url 'logon' %}" method="post">
+                <div class="mb-3">
+                    {% csrf_token %}
+                    <label for="Username" class="form-label">Úsuario:</label>
+                    {{ formu.user_form }}
+                    <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
+                    <label for="Password" class="form-label">Senha:</label>
+                    {{ formu.password_form }}
+                    <div id="emailHelp" class="form-text">Dígite a senha do úsuario:</div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
 
             </form>
         </section>
