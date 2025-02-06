@@ -9,46 +9,38 @@ from django.contrib.auth.decorators import login_required
 
 def logonP(request):
     form = LoginForms()
-    if request == 'POST':
-        form = LoginForms(request.POST)
+    if request.method == 'POST':
+        form = LoginForms(data=request.POST)
         if form.is_valid():
-            username = request.Post.get('user_form')
-            password = request.Post.get('password_form')
-            authentic = authenticate(request, username=username, password=password)
-        if authentic is not None:
-            login(request, authentic)
-            return redirect('login')
-        else:
-            return redirect('register')
+            nome = request.POST.get('user_form')
+            senha = request.POST.get('password_form')
+            user = authenticate(username=nome, password=senha)
+            if user:
+                login(request, user)
+                return redirect('pagina001')
+            else:
+                return redirect('register')
     context = {'formu': form}
     return render(request, 'html/login.html', context)
 
 
 def registerP(request):
     if request.method == 'POST':
-        form_req = RegisterForm(request.POST)
+        form_req = RegisterForm(data=request.POST)
         if form_req is not None:
-            print('passou aki', form_req)
             if form_req.is_valid():
                 user_form = request.POST.get('username')
                 password_form = request.POST.get('password1')
                 password_form2 = request.POST.get('password2')
-                print('pegou todos elementos')
                 print(user_form, password_form, password_form2)
                 if password_form == password_form2:
-                    print('senha igual')
                     new_user = authenticate(username=user_form, password=password_form)
                     login(request, new_user)
                     form_req.save()
-                    print('salvou o ususario')
                     if new_user:
-                        print('redirecionando ....')
                         redirect('pagina001')
             else:
-                print(form_req.errors)
-                print('formulario nao e valido')
                 redirect('/')
-            
     form = RegisterForm()
     context = {'form': form}
     return render(request, 'html/register.html', context)
