@@ -26,17 +26,29 @@
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 1</h2>
-                        <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
+                        {% if user.is_authenticated %}
+                            <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
+                        {% else %}
+                            <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
+                        {% endif %}
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 2</h2>
+                        {% if user.is_authenticated %}
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
+                        {% else %}
+                        <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
+                        {% endif %}
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 3</h2>
+                        {% if user.is_authenticated %}
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
+                        {% else %}
+                        <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
+                        {% endif %}
                     </div>
 
                 </div>
@@ -45,17 +57,29 @@
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 1</h2>
+                        {% if user.is_authenticated %}
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
+                        {% else %}
+                        <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
+                        {% endif %}
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 2</h2>
+                        {% if user.is_authenticated %}
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
+                        {% else %}
+                        <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
+                        {% endif %}
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 3</h2>
+                        {% if user.is_authenticated %}
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
+                        {% else %}
+                        <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
+                        {% endif %}
                     </div>
 
                 </div>
