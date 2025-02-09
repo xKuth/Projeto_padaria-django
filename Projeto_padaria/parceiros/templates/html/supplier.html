@@ -20,71 +20,73 @@
                 <i class="bi bi-geo-alt"> Unidades:</i></a>
             </div>
         </nav>
-        <section class="section_enterprise">
-            <div class="container">
-                <div class="img-interprise">
+        <section class="section_enterprise"><!--Section enterprises-->
+            <div class="container"><!--Div to bootstrap5 -->
+                <div class="img-interprise"><!-- Div with all imgs-->
 
+                    <!-- Div content img line per line-->
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 1</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                             <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
                         {% else %}
                             <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 2</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
                         {% else %}
                         <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 3</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
                         {% else %}
                         <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
-                </div>
+                </div><!--End div all imgs-->
                 
-                <div class="img-interprise">
+                <div class="img-interprise"><!-- Div with all imgs-->
 
+                    <!-- Div content img line per line-->
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 1</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
                         {% else %}
                         <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_001.png' %}" alt="enterprise_001_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 2</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
                         {% else %}
                         <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_002.png' %}" alt="enterprise_002_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
                     <div class="content_enterprise">
                         <h2 class="layer-enterprise">Enterprise 3</h2>
-                        {% if user.is_authenticated %}
+                        {% if user.is_authenticated %}<!-- Condiction for user login or not-->
                         <a href="#"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
                         {% else %}
                         <a href="{% url 'register' %}"><img class="enterprise_img" src="{% static '/imgs/enterprise_003.png' %}" alt="enterprise_003_300px"></a>
-                        {% endif %}
+                        {% endif %}<!--End Condiction User-->
                     </div>
 
-                </div>
-            </div>
-        </section>
+                </div><!--End div all imgs-->
+            </div><!--End div to bootstrap5 -->
+        </section><!--End section enterprises-->
     </main>
     {% endblock header %}
     {% block footer %}{% endblock footer %}
