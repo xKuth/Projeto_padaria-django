@@ -31,6 +31,10 @@ div#not_underline > i{
     font-size: 0.5em;
 }
 
+i.bi.bi-person-circle{
+    size: 10px;
+}
+
 /* main of anunciment */
 main{
     height: 88%;
