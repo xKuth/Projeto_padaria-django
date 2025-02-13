@@ -13,34 +13,44 @@
 </head>
 <body>
     {% block header %}<!-- content import base.html -->
-    <header>
 
-        <div class="collapse"><!-- Navegation mobile -->
-            <div class="bg-dark p-4">
-                <h5 class="text-white h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-            </div>
-        </div><!-- End navation mobile -->
-
-    </header>
-    
     <main><!-- Content out the import -->
+
+
         <section class="upper_main_img"><!-- section for annouciment carrocel -->
-            <div class="container"><!-- div flex import bootstrap5 -->
-                <h1>Fornecedores do dia</h1>
-                <div class="anunnciment"><!-- Div annouciment carrocel -->
-                    <div class="text-img">
-                        <h2>Pizza Italiana</h2>
-                        <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
-                        <button class="button_annoucement">Ver Loja</button>
-                        <button class="button_annoucement-nonebg">Fazer pedido</button>
-                    </div><!-- Div Img annouciment -->
-                    <div class="img-anoucement" class="img-fluid">
-                        <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
-                    </div><!-- End Div Img annouciment -->
-                </div><!-- End Div annouciment carrocel -->
-            </div><!-- End div flex import bootstrap5 -->
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container"><!-- div flex import bootstrap5 -->
+                            <h1>Fornecedores do dia</h1>
+                            <div class="anunnciment"><!-- Div annouciment carrocel -->
+                                <div class="text-img">
+                                    <h2>Pizza Italiana</h2>
+                                    <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
+                                    <button class="button_annoucement">Ver Loja</button>
+                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+                                </div><!-- Div Img annouciment -->
+                                <div class="img-anoucement" class="img-fluid">
+                                    <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                </div><!-- End Div Img annouciment -->
+                            </div><!-- End Div annouciment carrocel -->
+                        </div><!-- End div flex import bootstrap5 -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+
         </section><!-- End section for annouciment carrocel -->
+
+
+
         <a href="{% url 'suppliers' %}"><!-- Link for enterprises -->
             <section class="mid_main_anouciment"><!-- Section enterprises img -->
                 <div class="img_background_mid">
