@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768">
     <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300">
     <title>Documento base</title>
-    {% load bootstrap5 %}
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}
+    {% load bootstrap5 %}<!-- import bootstrap5 -->
+    {% bootstrap_css %}<!-- import bootstrap5 Css -->
+    {% bootstrap_javascript %}<!-- import javascript bootstrap -->
 </head>
 <body>
     <nav class="navbar justify-content-end navbar-expand-md fixed-top navbar-dark bg-dark" id="not_block"><!-- Navegation desktop -->
-        <ul class="navbar-nav" id="nav_not_vertical">
-            <li class="nav-item" id="nav_not_vertical">
-                <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a>
+        <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
+            <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
+                <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a>
+                <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a><!-- page enterprises -->
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a>
+                <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a><!-- page photos -->
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a>
+                <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
             </li>
         </ul>
         <div class="col-md-3 text-end" id="not_underline">
