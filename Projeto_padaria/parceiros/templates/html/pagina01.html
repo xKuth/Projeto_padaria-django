@@ -20,6 +20,11 @@
         <section class="upper_main_img"><!-- section for annouciment carrocel -->
             <h1>Fornecedores do dia</h1>
             <div id="carouselExample" class="carousel slide" >
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner"><!-- Caroucel div all item-->
 
                     <div class="carousel-item active"><!-- Caroucel page 1 -->
@@ -52,7 +57,26 @@
                                 </div><!-- Div Img annouciment -->
 
                                 <div class="img-anoucement" class="img-fluid">
-                                    <img src="{% static '/imgs/pao_png.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                    <img src="{% static '/imgs/pao.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                </div><!-- End Div Img annouciment -->
+                            </div><!-- End Div annouciment carrocel -->
+                        </div><!-- End div flex import bootstrap5 -->
+
+                    </div>
+
+                    <div class="carousel-item"><!-- Caroucel page 2-->
+
+                        <div class="container"><!-- div flex import bootstrap5 -->
+                            <div class="anunnciment"><!-- Div annouciment carrocel -->
+                                <div class="text-img">
+                                    <h2>Crossant</h2>
+                                    <p>Delicioso crossant feito com materia importado para melhorar seu dia</p>
+                                    <button class="button_annoucement">Ver Loja</button>
+                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+                                </div><!-- Div Img annouciment -->
+
+                                <div class="img-anoucement" class="img-fluid">
+                                    <img src="{% static '/imgs/croassant.png' %}" alt="img_pizza" id="pizza_anuciment">
                                 </div><!-- End Div Img annouciment -->
                             </div><!-- End Div annouciment carrocel -->
                         </div><!-- End div flex import bootstrap5 -->
