@@ -20,11 +20,11 @@
         <section class="upper_main_img"><!-- section for annouciment carrocel -->
             <h1>Fornecedores do dia</h1>
             <div id="carouselExample" class="carousel slide" >
-                <div class="carousel-indicators">
+                <div class="carousel-indicators"><!-- button the viewns page active -->
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+                </div><!-- End button the viewns page active -->
                 <div class="carousel-inner"><!-- Caroucel div all item-->
 
                     <div class="carousel-item active"><!-- Caroucel page 1 -->
@@ -109,15 +109,17 @@
                 </div>
             </section><!-- End Section enterprises img -->
         </a><!-- End Link for enterprises -->
-        <section class="mid_main_anouciment" id="background_bread"><!-- Section products img -->
-            <div class="img_background_mid">
-                <div class="container"><!-- Div import bootstrap5 -->
-                    <div class="paragraphy_mid">
-                        <p class="p_mid_section">Ver Fotos de produtos</p>
-                    </div>
-                </div><!-- Div import bootstrap5 -->
-            </div>
-        </section><!-- Section products img -->
+        <a href="{% url 'photos' %}">
+            <section class="mid_main_anouciment" id="background_bread"><!-- Section products img -->
+                <div class="img_background_mid">
+                    <div class="container"><!-- Div import bootstrap5 -->
+                        <div class="paragraphy_mid">
+                            <p class="p_mid_section">Ver Fotos de produtos</p>
+                        </div>
+                    </div><!-- Div import bootstrap5 -->
+                </div>
+            </section><!-- Section products img -->
+        </a>
         
     </main><!-- End Content out the import -->
     {% endblock header%}<!-- End content import base.html -->
