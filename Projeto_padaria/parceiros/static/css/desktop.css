@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* font-famils imports: Dancing Script, Abel*/
 
 /* Global config */
@@ -52,12 +54,12 @@ section.upper_main_img{
     color: black;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.795);
 }
-section.upper_main_img > div.container > h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 4vw;
-    color: aliceblue;
+section.upper_main_img > h1{
+    font-family: 'Tinos', 'Serif';
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
     text-align: center;
-    text-decoration: underline;
+    box-shadow: 0px 1px white;
     padding-top: 4%;
 }
 
