@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Supliers(models.Model):
+class Enterprise(models.Model):
     id_suplier = models.BigAutoField(primary_key=True)
     name_enterprise = models.CharField(max_length=50)
     data_criation = models.DateTimeField(auto_now_add=True)
@@ -16,7 +16,6 @@ class clientes(models.Model):
 
 class Products(models.Model):
     id_product = models.AutoField(primary_key=True)
-    refer_suplier = models.ForeignKey(Supliers, on_delete=models.CASCADE)
     name_product = models.CharField(max_length=50)
     price_product = models.FloatField(max_length=200)
     data_criation = models.DateTimeField(auto_now_add=True)
