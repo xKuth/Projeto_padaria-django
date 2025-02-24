@@ -126,6 +126,11 @@ img#pizza_anuciment{
     width: 12vw;
     height: 7vh;
 }
+/* Outer produts section */
+h2.title_produts{
+    text-align: center;
+}
+
 /* Mid section annoucement */
 
 .mid_main_anouciment{
