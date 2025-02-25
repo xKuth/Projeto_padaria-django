@@ -137,6 +137,10 @@ h2.title_produts{
     text-align: center;
     padding-bottom: 4%;
 }
+.our_produts{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Mid section annoucement */
 
