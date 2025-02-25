@@ -127,8 +127,15 @@ img#pizza_anuciment{
     height: 7vh;
 }
 /* Outer produts section */
+.main_outher_products{
+    margin-top: 3%;
+    padding-top: 2%;
+    background-color: rgb(255, 254, 252);
+    height: 65vh;
+}
 h2.title_produts{
     text-align: center;
+    padding-bottom: 4%;
 }
 
 /* Mid section annoucement */
