@@ -148,6 +148,13 @@ h2.title_produts{
     animation: 0.5s;
     background-color: rgb(216, 131, 20);
 }
+.text_our_products{
+    display: flex;
+    margin-right: 2%;
+    text-decoration: underline;
+    justify-items: first baseline;
+    justify-content: space-around;
+}
 
 /* Mid section annoucement */
 
