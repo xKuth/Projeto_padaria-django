@@ -141,6 +141,13 @@ h2.title_produts{
     display: flex;
     justify-content: space-between;
 }
+.enterprise_img{
+    background-color: #f8f6f7;
+}
+.ref_ou_product:hover{
+    animation: 0.5s;
+    background-color: rgb(216, 131, 20);
+}
 
 /* Mid section annoucement */
 
