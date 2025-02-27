@@ -127,19 +127,22 @@ img#pizza_anuciment{
     height: 7vh;
 }
 /* Outer produts section */
-.main_outher_products{
+.section_outher_products{
     margin-top: 3%;
     padding-top: 2%;
-    background-color: rgb(255, 254, 252);
+    background-color: rgba(80, 80, 75, 0.048);
     height: 65vh;
 }
 h2.title_produts{
     text-align: center;
+    font: normal 3em "Dancing Script";
+    color: aliceblue;
     padding-bottom: 4%;
 }
 .our_produts{
     display: flex;
     justify-content: space-between;
+    
 }
 .enterprise_img{
     background-color: #f8f6f7;
@@ -147,13 +150,16 @@ h2.title_produts{
 .ref_ou_product:hover{
     animation: 0.5s;
     background-color: rgb(216, 131, 20);
+
 }
 .text_our_products{
+    color: black;
     display: flex;
-    margin-right: 2%;
-    text-decoration: underline;
+    position: relative;
+    bottom: 15px;
+    margin-left: 6%;
     justify-items: first baseline;
-    justify-content: space-around;
+    gap: 20%;
 }
 
 /* Mid section annoucement */
