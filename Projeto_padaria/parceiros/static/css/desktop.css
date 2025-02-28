@@ -150,22 +150,26 @@ h2.title_produts{
 }
 .ref_ou_product > .enterprise_img:hover{
     width: 90%;
+    margin-top: 5%;
 }
 
 .ref_ou_product:hover{
-    animation: 0.5s;
-    background-color: rgb(216, 131, 20);
-
+    animation: 1s backwards;
+    background-color: rgba(189, 135, 27, 0.74);
+    text-align: center;
 }
 
 .text_our_products{
     color: black;
     display: flex;
     position: relative;
-    bottom: 12px;
-    margin-left: 6%;
+    bottom: 1.1em;
+    margin-left: 7%;
     justify-items: first baseline;
-    gap: 20%;
+    gap: 21%;
+}
+.text_our_products > h3 {
+    font-family: "Abel";
 }
 
 /* Mid section annoucement */
