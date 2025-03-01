@@ -14,40 +14,40 @@
     {% block header %}
 
     <main>
-        <nav class="navbar navbar-light bg-light" id="nav-enterprise">
+        <nav class="navbar navbar-light bg-light" id="nav-enterprise"><!-- Nav the section main-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Veja Melhores fotos dos produtos : <br>
                     <i class="bi bi-geo-alt"> Fotos/empresas:</i></a>
             </div>
-        </nav>
-        <section class="section_enterprise" id="Photos_bg">
-            <div class="container">
+        </nav><!-- End nav section main-->
+        <section class="section_enterprise" id="Photos_bg"><!-- Start section imgs the photos -->
+            <div class="container"><!-- Start container the bootstrap5 -->
 
-                <div class="img-interprise">
-                    <div class="content_enterprise_photos">
+                <div class="img-interprise"><!-- Div with all divs the imgs flex -->
+                    <div class="content_enterprise_photos"><!-- Div img 1 with text -->
                         
                         <h2 class="layer-enterprise">Enterprise 1</h2>
                         <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
 
                     </div>
 
-                    <div class="content_enterprise_photos">
+                    <div class="content_enterprise_photos"><!-- Div img 2 with text -->
 
                         <h2 class="layer-enterprise">Enterprise 2</h2>
                         <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
 
                     </div>
 
-                    <div class="content_enterprise_photos">
+                    <div class="content_enterprise_photos"><!-- Div img 3 with text -->
 
                         <h2 class="layer-enterprise">Enterprise 3</h2>
                         <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
 
                     </div>
 
-                </div>
-            </div>
-        </section>
+                </div><!-- End div with all divs the imgs flex -->
+            </div><!-- End container the bootstrap5 -->
+        </section><!-- End section imgs the photos -->
     </main>
     {% endblock header %}
     {% block footer %}{% endblock footer %}
