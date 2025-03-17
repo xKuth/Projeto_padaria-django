@@ -51,7 +51,7 @@ main{
     padding-right: 4%;
     padding-left: 4%;
     background-color: rgba(2, 2, 1, 0.753);
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 section.upper_main_img{
     background: black url('../imgs/background_img_upper.jpg') no-repeat;
@@ -211,17 +211,15 @@ section#background_bread{
 }
 /* footer */
 footer {
-    display: flex;
+    display: inline;
     position: absolute;
     left: 0;
     clear: both;
     width: 100%;
     text-align: center;
     background-color: rgba(2, 2, 1, 0.849);
-    margin-top: 30px;
     bottom: 0;
-
-    
+  
 }
 
 .footer_info{
