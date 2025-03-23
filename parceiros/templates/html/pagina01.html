@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+{% extends 'html/bases.html' %}<!-- import page base.html -->
+{% load static %}<!-- Loading static css and imgs files -->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><!-- import icons bootstrap5 -->
+        <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768"><!-- import static css mobile base -->
+        <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300"><!-- import static css base -->
+        <title>Pagina Principal</title>
+        
+</head>
+<body>
+    {% block header %}<!-- content import base.html -->
+
+    <main><!-- Content out the import -->
+
+
+        <section class="upper_main_img"><!-- section for annouciment carrocel -->
+            <h1>Fornecedores do dia</h1>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators"><!-- button the viewns page active -->
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div><!-- End button the viewns page active -->
+                <div class="carousel-inner"><!-- Caroucel div all item-->
+
+                    <div class="carousel-item active"><!-- Caroucel page 1 -->
+
+                        <div class="container"><!-- div flex import bootstrap5 -->
+                            <div class="anunnciment"><!-- Div annouciment carrocel -->
+                                <div class="text-img">
+                                    <h2>Pizza Italiana</h2>
+                                    <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
+                                    <button class="button_annoucement">Ver Loja</button>
+                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+                                </div><!-- Div Img annouciment -->
+
+                                <div class="img-anoucement" class="img-fluid">
+                                    <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                </div><!-- End Div Img annouciment -->
+                            </div><!-- End Div annouciment carrocel -->
+                        </div><!-- End div flex import bootstrap5 -->
+
+                    </div>
+                    <div class="carousel-item"><!-- Caroucel page 2-->
+
+                        <div class="container"><!-- div flex import bootstrap5 -->
+                            <div class="anunnciment"><!-- Div annouciment carrocel -->
+                                <div class="text-img">
+                                    <h2>Pães do dia</h2>
+                                    <p>Delicioso pão caseiro com ingredientes de otima qualidade para melhorar a experiencia do seu dia</p>
+                                    <button class="button_annoucement">Ver Loja</button>
+                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+                                </div><!-- Div Img annouciment -->
+
+                                <div class="img-anoucement" class="img-fluid">
+                                    <img src="{% static '/imgs/pao.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                </div><!-- End Div Img annouciment -->
+                            </div><!-- End Div annouciment carrocel -->
+                        </div><!-- End div flex import bootstrap5 -->
+
+                    </div>
+ 
+                    <div class="carousel-item"><!-- Caroucel page 2-->
+
+                        <div class="container"><!-- div flex import bootstrap5 -->
+                            <div class="anunnciment"><!-- Div annouciment carrocel -->
+                                <div class="text-img">
+                                    <h2>Crossant</h2>
+                                    <p>Delicioso crossant feito com materia importado para melhorar seu dia</p>
+                                    <button class="button_annoucement">Ver Loja</button>
+                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
+                                </div><!-- Div Img annouciment -->
+
+                                <div class="img-anoucement" class="img-fluid">
+                                    <img src="{% static '/imgs/croassant.png' %}" alt="img_pizza" id="pizza_anuciment">
+                                </div><!-- End Div Img annouciment -->
+                            </div><!-- End Div annouciment carrocel -->
+                        </div><!-- End div flex import bootstrap5 -->
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"><!-- Butt swap caroucel prev-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"><!-- Butt swap caroucel next-->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section><!-- End section for annouciment carrocel -->
+
+        <section class="section_outher_products"><!-- Section outher products -->
+            
+            <div class="container"><!-- Start container bootstrap5 -->
+                <h2 class="title_produts">OUTROS PRODUTOS</h2>
+                <div class="our_produts"><!-- Div with all elements imgs flex-->
+                    <a href="#" class="ref_ou_product">
+                        <img class="enterprise_img" src="{% static '/imgs/salgados.png' %}" alt=""></a>
+                    <a href="#" class="ref_ou_product">
+                        <img class="enterprise_img" src="{% static '/imgs/tiramisu.png' %}" alt=""></a>
+                    <a href="#" class="ref_ou_product">
+                        <img class="enterprise_img" src="{% static '/imgs/bolo.png' %}" alt=""></a>
+                    <a href="#" class="ref_ou_product">
+                        <img class="enterprise_img" src="{% static '/imgs/brownie.png' %}" alt=""></a>
+                </div>
+                <div class="text_our_products"><!-- Div with all name products -->
+                    <h3>Salgados</h3>
+                    <h3>Tiramisu</h3>
+                    <h3>Bolos</h3>
+                    <h3>Brownie</h3>
+                </div>
+            </div><!-- End container Bootrap5 -->
+        </section><!-- End Section outher products -->
+
+        <a href="{% url 'suppliers' %}"><!-- Link for enterprises -->
+            <section class="mid_main_anouciment"><!-- Section enterprises img -->
+                <div class="img_background_mid">
+                    <div class="container"><!-- Div import bootstrap5 -->
+                        <div class="paragraphy_mid">
+                            <p class="p_mid_section">Ver lojas parceiras</p>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Section enterprises img -->
+        </a><!-- End Link for enterprises -->
+        <a href="{% url 'photos' %}">
+            <section class="mid_main_anouciment" id="background_bread"><!-- Section products img -->
+                <div class="img_background_mid">
+                    <div class="container"><!-- Div import bootstrap5 -->
+                        <div class="paragraphy_mid">
+                            <p class="p_mid_section">Ver Fotos de produtos</p>
+                        </div>
+                    </div><!-- Div import bootstrap5 -->
+                </div>
+            </section><!-- Section products img -->
+        </a>
+        
+    </main><!-- End Content out the import -->
+    {% endblock header%}<!-- End content import base.html -->
+    {% block footer %}{% endblock footer %}<!-- Content import footer -->
+</body>
+</html>

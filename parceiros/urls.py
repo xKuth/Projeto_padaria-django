@@ -1,0 +1,11 @@
+from django.urls import path
+from django.conf.urls.static import static
+from . import views
+from Projeto_padaria import settings
+
+urlpatterns = [
+    path('', views.PaginaP, name='pagina001'),
+    path('suppliers', views.suppliersP , name='suppliers'),
+    path('info' , views.infoP , name='infor'),
+    path('photos', views.photosP, name='photos'),
+] 

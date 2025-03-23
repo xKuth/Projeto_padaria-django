@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'html/bases.html' %}
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768">
+    <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300">
+    <title>registrar</title>
+</head>
+<body>
+    {% block header %}
+    <main>
+        <section class="section_login" id="bg_register">
+            <form action="{% url 'register' %}" method="post">
+                    
+                <div class="mb-3">
+                    {% csrf_token %}
+                    <label for="Username" class="form-label">Úsuario:</label>
+                    {{ form.username }}
+                    <div id="emailHelp" class="form-text">Dígite o nome do úsuario:</div>
+                    <br>
+                    <label for="Username" class="form-label">Digite uma senha:</label>
+                    {{ form.password1 }}
+                    <div id="emailHelp" class="form-text">Dígite uma senha que contenha:<br>
+                        <ul>
+                            <li>Possua pelo menos 1 letra maiúscula</li>
+                            <li>Possua pelo menos 1 caracter especial ex:(@,#,$,%)</li>
+                            <li>Possua mais de 8 carácteres</li>
+                            <li>Não ultilize numeros em sequencia como:(1234)</li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <label for="Username" class="form-label">Repita a senha digitada:</label>
+                    {{ form.password2 }}
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+
+        </section>
+            
+    </main>
+    {% endblock header %}
+    {% block footer %}{% endblock footer %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'html/bases.html' %}
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768">
+    <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300">
+    <title>Informações</title>
+</head>
+<body>
+    {% block header %}
+    <main>
+        <section class="section_info">
+            <div class="container">
+                <div class="info_project">
+                    <h1 class="title_info">Sobre o projeto</h1>
+                    <p class="p_info">Projeto open source, criado para auxiliar clientes e fornecedores Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odit sunt dolores deserunt iusto sit iste cum. Esse veritatis eos laboriosam dolores quaerat ab blanditiis doloremque, amet officiis mollitia adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt adipisci accusamus amet odit numquam consequatur ex id laudantium fuga, saepe ea voluptate eaque rerum voluptates qui impedit dolore dolor?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% endblock header %}
+    {% block footer %}{% endblock footer %}
+</body>
+</html>
