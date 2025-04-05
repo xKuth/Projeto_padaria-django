@@ -182,7 +182,12 @@ h2.title_produts{
 .text_our_products > h3 {
     font-family: "Abel";
 }
-
+/* Section extra infor */
+.section_infor_extra{
+    height: 50vh;
+    padding-top: 5%;
+    background-color: rgba(152, 199, 81, 0.719);
+}
 /* Mid section annoucement */
 
 .mid_main_anouciment{
