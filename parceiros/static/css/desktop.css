@@ -184,9 +184,13 @@ h2.title_produts{
 }
 /* Section extra infor */
 .section_infor_extra{
-    height: 50vh;
-    padding-top: 5%;
-    background-color: rgba(152, 199, 81, 0.719);
+    height: 70vh;
+    margin-top: 4%;
+    background-color: rgba(205, 211, 197, 0.336);
+}
+.text_in{
+    font-size: 2em;
+    padding: 10%;
 }
 /* Mid section annoucement */
 
