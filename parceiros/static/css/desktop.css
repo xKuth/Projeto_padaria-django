@@ -136,7 +136,8 @@ img#pizza_anuciment{
 .section_outher_products{
     margin-top: 3%;
     padding-top: 2%;
-    background-color: rgba(247, 242, 245, 0.74);
+    background-color: rgba(245, 136, 201, 0.685);
+    border-radius: 2px;
     height: 65vh;
     min-height: 50vh;
 }
