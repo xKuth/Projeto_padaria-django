@@ -197,9 +197,18 @@ h2.title_produts{
     padding-left: 3%;
 }
 .text_in{
+    display: inline;
+    float: left;
     font-size: 1.7em;
     padding-top: 2%;
     margin-right: 40%;
+}
+.imgs_entra_info{
+    display: flex;
+    height: 25vh;
+    flex-direction: column;
+    float: right;
+    
 }
 /* Mid section annoucement */
 
