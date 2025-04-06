@@ -188,9 +188,18 @@ h2.title_produts{
     margin-top: 4%;
     background-color: rgba(205, 211, 197, 0.336);
 }
+.section_infor_extra > h2{
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Abel';
+    bottom: 6vh;
+    font-size: 3em;
+    padding-left: 3%;
+}
 .text_in{
-    font-size: 2em;
-    padding: 10%;
+    font-size: 1.7em;
+    padding-top: 2%;
+    margin-right: 40%;
 }
 /* Mid section annoucement */
 
