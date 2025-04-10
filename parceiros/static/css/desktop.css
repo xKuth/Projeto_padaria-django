@@ -190,6 +190,8 @@ h2.title_produts{
 }
 .content_extra_info{
     display: flex;
+    justify-content: space-between;
+
 }
 .section_infor_extra > h2{
     position: relative;
@@ -200,19 +202,22 @@ h2.title_produts{
     padding-left: 3%;
 }
 .text_in{
-    display: inline;
+    display: flex;
     float: left;
     font-size: 1.7em;
     padding-top: 2%;
     
 }
 .imgs_entra_info{
-    display: inline;
+    display: flex;
     float: right;
-    padding-left: 20%;
+    
 }
 .width_extra_info_img{
+    display: flex;
     width: 70%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 /* Mid section annoucement */
 
