@@ -188,6 +188,9 @@ h2.title_produts{
     margin-top: 4%;
     background-color: rgba(205, 211, 197, 0.336);
 }
+.content_extra_info{
+    display: flex;
+}
 .section_infor_extra > h2{
     position: relative;
     color: whitesmoke;
@@ -201,14 +204,15 @@ h2.title_produts{
     float: left;
     font-size: 1.7em;
     padding-top: 2%;
-    margin-right: 40%;
+    
 }
 .imgs_entra_info{
-    display: flex;
-    height: 25vh;
-    flex-direction: column;
+    display: inline;
     float: right;
-    
+    padding-left: 20%;
+}
+.width_extra_info_img{
+    width: 70%;
 }
 /* Mid section annoucement */
 
