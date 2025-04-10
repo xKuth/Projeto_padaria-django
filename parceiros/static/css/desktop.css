@@ -190,7 +190,7 @@ h2.title_produts{
 }
 .content_extra_info{
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
 
 }
 .section_infor_extra > h2{
@@ -216,7 +216,6 @@ h2.title_produts{
 .width_extra_info_img{
     display: flex;
     width: 70%;
-    flex-direction: column;
     justify-content: space-around;
 }
 /* Mid section annoucement */
