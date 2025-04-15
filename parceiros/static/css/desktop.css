@@ -188,11 +188,7 @@ h2.title_produts{
     margin-top: 4%;
     background-color: rgba(205, 211, 197, 0.336);
 }
-.content_extra_info{
-    display: flex;
-    gap: 100px;
 
-}
 .section_infor_extra > h2{
     position: relative;
     color: whitesmoke;
@@ -201,22 +197,27 @@ h2.title_produts{
     font-size: 3em;
     padding-left: 3%;
 }
-.text_in{
+.content_extra_info{
     display: flex;
+}
+
+.text_in{
+    display: inline;
     float: left;
     font-size: 1.7em;
     padding-top: 2%;
-    
+
 }
-.imgs_entra_info{
+.imgs_extra_info{
     display: flex;
-    float: right;
-    
+    position: relative;
+    padding-left: 20%;
+}
+.imgs_extra_column{
+    gap: 30px;
 }
 .width_extra_info_img{
-    display: flex;
     width: 70%;
-    justify-content: space-around;
 }
 /* Mid section annoucement */
 
