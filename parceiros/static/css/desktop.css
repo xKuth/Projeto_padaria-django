@@ -206,18 +206,25 @@ h2.title_produts{
     float: left;
     font-size: 1.7em;
     padding-top: 2%;
+    margin-right: 5%;
 
 }
 .imgs_extra_info{
     display: flex;
     position: relative;
-    padding-left: 20%;
+    padding-right: 7%;
+
 }
 .imgs_extra_column{
-    gap: 30px;
+    gap: 30%;
 }
 .width_extra_info_img{
-    width: 70%;
+    width: 300px;
+    max-width: 100%;
+}
+img#central_extra_info_img{
+    width: 200px;
+    max-width: 700%;
 }
 /* Mid section annoucement */
 
