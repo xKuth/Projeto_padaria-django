@@ -135,7 +135,6 @@ img#pizza_anuciment{
 .section_outher_products{
     margin-top: 3%;
     padding-top: 2%;
-    background-color: rgba(245, 136, 201, 0.685);
     border-radius: 2px;
     height: 65vh;
     min-height: 50vh;
@@ -152,7 +151,7 @@ h2.title_produts{
     
 }
 .ref_ou_product > .enterprise_img{
-    background-color: #8a4e6c62;
+    background-color: rgba(240, 248, 255, 0.829);
     box-shadow: none;
     min-width: 50%;
    
@@ -160,11 +159,11 @@ h2.title_produts{
 .ref_ou_product > .enterprise_img:hover{
     width: 90%;
     margin-top: 5%;
+    animation: 2s backwards;
 }
 
 .ref_ou_product:hover{
-    animation: 4s backwards;
-    background-color: rgba(139, 46, 93, 0.507);
+    background-color: rgba(240, 248, 255, 0.603);
     border-radius: 2%;
     text-align: center;
 }
@@ -173,13 +172,13 @@ h2.title_produts{
     color: black;
     display: flex;
     position: relative;
-    bottom: 1.1em;
+    bottom: 2em;
     margin-left: 7%;
     justify-items: first baseline;
     gap: 21%;
 }
 .text_our_products > h3 {
-    font-family: "Abel";
+    font-family: "Tinos";    
 }
 /* Section extra infor */
 .section_infor_extra{
