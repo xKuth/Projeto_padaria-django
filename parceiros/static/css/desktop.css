@@ -123,7 +123,6 @@ img#pizza_anuciment{
     box-shadow: 2px 5px 5px black;
     float: right;
     border-radius: 5%;
-    font-size: 28px;
     font-size: 1.5vw;
     margin: 1%;
 }
@@ -208,8 +207,14 @@ h2.title_produts{
     font-size: 1.7em;
     padding-top: 2%;
     margin-right: 5%;
+    margin-left: 2%;
 
 }
+button.button_annoucement-nonebg > div.text_in{
+    font-size: 1vw;
+    float: left;
+}
+
 .imgs_extra_info{
     display: flex;
     position: relative;
