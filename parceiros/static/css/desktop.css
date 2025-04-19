@@ -133,7 +133,9 @@ img#pizza_anuciment{
 }
 /* Outer produts section */
 .section_outher_products{
-    margin-top: 3%;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 5%;
+    margin-top: 1%;
     padding-top: 2%;
     border-radius: 2px;
     height: 65vh;
@@ -207,7 +209,6 @@ h2.title_produts{
     padding-top: 2%;
     margin-right: 5%;
     margin-left: 2%;
-
 }
 button.button_annoucement-nonebg > div.text_in{
     font-size: 1vw;
