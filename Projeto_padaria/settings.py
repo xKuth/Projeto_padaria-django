@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'Projeto_padaria',
     'parceiros',
     'users',
+    'interprises',
     'bootstrap5',
 ]
 
