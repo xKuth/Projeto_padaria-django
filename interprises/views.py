@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def interprises(request):
+    return render(request , 'html/interprise_page.html')
