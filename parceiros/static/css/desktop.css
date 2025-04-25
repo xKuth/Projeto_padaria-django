@@ -395,3 +395,18 @@ div#emailHelp{
 section#bg_register{
     background: black url('../imgs/register_page.png');
 }
+
+ /* interprise products page */
+ ul.nav-bar-select{
+    text-align: left;
+    display: inline;
+ }
+ li.list-inter{
+    list-style: none;
+    display: inline-block;
+ }
+ .a-inter{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+ }
