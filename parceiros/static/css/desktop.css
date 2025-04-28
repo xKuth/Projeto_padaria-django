@@ -398,15 +398,23 @@ section#bg_register{
 
  /* interprise products page */
  ul.nav-bar-select{
-    text-align: left;
-    display: inline;
+    margin: auto;
+    display: flex;
  }
  li.list-inter{
-    list-style: none;
     display: inline-block;
+    position: relative;
+    margin: 5%;
  }
  .a-inter{
     font-size: 1.5vw;
     text-decoration: none;
     color: black;
+ }
+ div.itens-img{
+    border-radius: 1%;
+    background-color: white;
+ }
+ .itens-img > h3{
+    text-align: center;
  }
