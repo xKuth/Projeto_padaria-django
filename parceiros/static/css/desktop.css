@@ -397,6 +397,7 @@ section#bg_register{
 }
 
  /* interprise products page */
+
  ul.nav-bar-select{
     margin: auto;
     display: flex;
@@ -411,10 +412,18 @@ section#bg_register{
     text-decoration: none;
     color: black;
  }
+ .content_products{
+    display: flex;
+    justify-content: space-evenly;
+ }
  div.itens-img{
     border-radius: 1%;
-    background-color: white;
+    background-color: rgba(238, 232, 232, 0.719);
+ }
+ .enterprise_img{
+    width: 12vw;
  }
  .itens-img > h3{
     text-align: center;
  }
+
