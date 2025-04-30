@@ -421,11 +421,11 @@ section#bg_register{
     border: 3px solid black;
  }
  .enterprise_img{
-    width: 12vw;
+    width: 14vw;
  }
  .itens-img > h3{
     border-radius: 2%;
-    height: 18%;
+    height: 17%;
     text-align: center;
     background-color: rgb(255, 254, 253);
  }
