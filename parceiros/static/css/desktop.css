@@ -139,7 +139,7 @@ img#pizza_anuciment{
     margin-top: 1%;
     padding-top: 2%;
     border-radius: 2px;
-    height: 65vh;
+    height: 60vh;
     min-height: 50vh;
 }
 h2.title_produts{
@@ -160,13 +160,12 @@ h2.title_produts{
    
 }
 .ref_ou_product > .enterprise_img:hover{
-    width: 90%;
+    transform: scale(0.9);
+    transition: 0.3s;
     margin-top: 5%;
-    animation: 2s backwards;
 }
 
 .ref_ou_product:hover{
-    background-color: rgba(240, 248, 255, 0.603);
     border-radius: 2%;
     text-align: center;
 }
