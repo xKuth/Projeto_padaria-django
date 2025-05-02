@@ -416,16 +416,27 @@ section#bg_register{
     display: flex;
     justify-content: space-evenly;
  }
+
  div.itens-img{
     background-color: rgba(238, 232, 232, 0.719);
-    border: 3px solid black;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 1px 1px 2px rgb(22, 31, 34);
  }
- .enterprise_img{
+
+ div.itens-img:hover{
+    background-color: rgba(238, 232, 232, 0.842);
+    box-shadow: 5px 5px 3px rgba(173, 216, 230, 0.637);
+    transition: 0.2s;
+    transform: scale(1.1);
+ }
+
+ .enterprise_product_img{
     width: 14vw;
  }
+ 
  .itens-img > h3{
-    border-radius: 2%;
-    height: 17%;
+    font-size: 1.3vw;
     text-align: center;
     background-color: rgb(255, 254, 253);
  }
