@@ -1,0 +1,767 @@
+[33mcommit cabc6292e3f0de0eafe985f4d18a06276d4b02e4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mprincipal[m[33m)[m
+Author: Luis  da Silva <156721982+xKuth@users.noreply.github.com>
+Date:   Sat May 31 11:08:25 2025 -0300
+
+    css style on document page 001 and css on pagae interprise img fix
+
+[33mcommit 4426235f4cb40eeacc5dd7cfdebc38dc04d10bd2[m[33m ([m[1;31morigin/principal[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu May 1 23:39:02 2025 -0300
+
+    swap imgs our products animations
+
+[33mcommit 9dde79e4667200ef7776f94e1ba070ebf4977226[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu May 1 23:17:19 2025 -0300
+
+    add zomm on css interprise products and rm class on img interprise products
+
+[33mcommit 8652fac0de6fd3ecdd48cead187ff4717af5d284[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Apr 29 21:50:56 2025 -0300
+
+    add links on each div on section interprise products
+
+[33mcommit 80962e28c031f169eb6400bac498f0ce7ab07636[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Apr 29 21:43:29 2025 -0300
+
+    add box conteiners on each div in section interprise products
+
+[33mcommit e70e6183293d1f7441a84791920fa6fadcc06a22[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Apr 29 21:32:45 2025 -0300
+
+    add flex content on div interprise products and ajust the elements
+
+[33mcommit 9685904d10d086cbcf488178d7d94eb91f99fbd7[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Apr 28 21:30:12 2025 -0300
+
+    div on interprise products add with route img
+
+[33mcommit 4acd36e8b5400c3de49df12f6e291f8240987bcd[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Apr 28 20:58:23 2025 -0300
+
+    add img and add div on interprise products
+
+[33mcommit 098c2fb83d647f1c443db11a76198ef6a793f0d0[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Apr 24 23:23:02 2025 -0300
+
+    css on display li in inter page add
+
+[33mcommit 3a01d49e00354234754931faf210222ed2c1f4cc[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Apr 21 11:50:20 2025 -0300
+
+    add div on section interprise on interprise_page
+
+[33mcommit f17ee64501aa30ee291aa08c31079bbcaba76839[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Apr 21 11:14:03 2025 -0300
+
+    add nav and and alements on section in interprise
+
+[33mcommit 848d331f273d91ed611a4d2a333571c3c3b0ec68[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 20 18:52:32 2025 -0300
+
+    swap href on buttons the page 001
+
+[33mcommit f700916c9f332a81ce662f91444abc8a1d7583ae[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 20 14:47:24 2025 -0300
+
+    add skelet on page interprise_page
+
+[33mcommit 16efa6dc819b4ad2f8fa276f4e628fff11d854a0[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Apr 19 10:34:59 2025 -0300
+
+    fix line extends on interprise page
+
+[33mcommit b3b7733ffead13545061c311015b139f47a00818[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Apr 19 10:33:09 2025 -0300
+
+    add settigns url the new app
+
+[33mcommit 110358ddb38001521c45f8dd05a739695a62009f[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Apr 19 10:09:28 2025 -0300
+
+    add path on url on interprise app '
+
+[33mcommit 46ef7967658c527a02d097d5823c784c5e5a3197[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Apr 19 09:45:01 2025 -0300
+
+    craate new app on project and add templates html on the same application
+
+[33mcommit bd5415e489172a2e4e6c75396d51932325ebd7eb[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Apr 19 09:27:44 2025 -0300
+
+    background color on our products add , and margin top fix on setion our products
+
+[33mcommit 11b4ec3319b05b06015c1f43f8ff23848c060c25[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 18 15:17:52 2025 -0300
+
+    remove section bc color on section our products, and re-align text our products div
+
+[33mcommit 54050ff1ca5534628db9f099c19a7e430a07c21a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 18 14:57:38 2025 -0300
+
+    add button on section extra infor with class the top section, and align on div text in on the same section
+
+[33mcommit f95cce848af4282caf94480cb9c027dbbb68fc5f[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Apr 17 12:19:39 2025 -0300
+
+    add max and min width on imgs on section extra info
+
+[33mcommit e33855030e375ac7c493b965274b0e76eeb81984[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Apr 17 12:15:31 2025 -0300
+
+    section infor extra with items ajust in perfect position for desktop!
+
+[33mcommit 55555aa04d61fecc74bea03898165adf3dd72376[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Apr 17 11:41:03 2025 -0300
+
+    add ajust on img extra infor
+
+[33mcommit 13881b1147808f1c5f214f0893b27bf63b215bb4[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Apr 15 15:28:13 2025 -0300
+
+    position on extra infor alingnj
+
+[33mcommit 351ff677422af8d93a3b1332ab29f646f86bd977[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Apr 9 21:37:16 2025 -0300
+
+    add gap on div flex on section extra infor'
+
+[33mcommit 3c773bdb986bde79b3a7de7b4ccdaefe1f15b6c4[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Apr 9 21:29:45 2025 -0300
+
+    add img left
+
+[33mcommit 7874c4133db38b371feab655b1bc43c944e561e6[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Apr 9 21:19:18 2025 -0300
+
+    add flex div for imgs div and text div on section extra info
+
+[33mcommit 55a7c3ae452df055ce36763d810a3e118f6e0e95[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Apr 9 20:59:09 2025 -0300
+
+    add divs on imgs on extra infor section
+
+[33mcommit 1d1d78ddbe439075668798fdd2045d76e20c60ef[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 6 20:56:18 2025 -0300
+
+    each div on section extra info with imgs necessary
+
+[33mcommit 12c3d00930602f0de550b206d37ed89f3ec937f0[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 6 20:45:50 2025 -0300
+
+    add imgs path on section extra info
+
+[33mcommit 1e957c1235d1a7b1df6ed3cbfc44ff0416acb1df[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 6 20:42:50 2025 -0300
+
+    add imgs on path static imgs, and add imgs sets on section on extra infor
+
+[33mcommit 8aae9c7b636828c4eec74a1126a7d9e728beb120[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Apr 6 19:35:00 2025 -0300
+
+    add title on section extra infor and ajust paragrapy in section
+
+[33mcommit 38924f9ca05b2f3e0669ec0b0c8d59ec33d635f6[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 4 22:43:55 2025 -0300
+
+    add text on section text extra infor on page 001
+
+[33mcommit 306b92861109d91cad1d904731370e7db5363a1d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 4 22:34:35 2025 -0300
+
+    add section extra infor in page 001
+
+[33mcommit 243194ac87a97f411971af0b6808943b5f93a57b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 4 22:24:20 2025 -0300
+
+    add route on sobre in base page
+
+[33mcommit 442e504fb484d3eb359302cdf91c4bfe0ca9c8e4[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Apr 4 22:09:10 2025 -0300
+
+    add logo img on nav bar in document page base and swap color background on the our products page 001
+
+[33mcommit d561c81cfe8be7912ed0c586fdd92e95dc2ebffc[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Mar 26 22:50:07 2025 -0300
+
+    rm scripts
+
+[33mcommit 225bf391c2c21eebe23772bdc01b6c98f64766d8[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Mar 26 22:48:03 2025 -0300
+
+     rm redme
+
+[33mcommit d2cda40a4abdcf41d535cacc60f81543ef5e9dd3[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Mar 26 22:16:38 2025 -0300
+
+    rm list
+
+[33mcommit 75620b31a40c43f9ea29ae10757a54e01a03ba61[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Mar 26 22:10:53 2025 -0300
+
+    add rm
+
+[33mcommit c91206824cd8ad05cabbfb3d8d964ec1c9db572d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Mar 22 22:57:06 2025 -0300
+
+    alfj
+
+[33mcommit 60cfff5ec89175768d386790199603c6b429da45[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Mar 22 22:37:22 2025 -0300
+
+    faa
+
+[33mcommit ab044d6677feec31c6b39a2c2cca9a55cfa8d71c[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Mar 22 22:00:16 2025 -0300
+
+    swap color background on our products section
+
+[33mcommit 2da1839883ea7446e8bfded6fadc32049f28a7e8[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Mar 25 22:05:58 2025 -0300
+
+    add rm
+
+[33mcommit 4c4e1e36f3078ec77d09d84ea4c6439f999c2931[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Mar 16 21:27:00 2025 -0300
+
+    fix to all pages distance on main the footer page
+
+[33mcommit 3212ac36f539ba73d4a5f21a34ecaa4593ab422f[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Mar 16 21:22:01 2025 -0300
+
+    fix on footer without align on all pages
+
+[33mcommit 29689f80a473e080362fcbe1ab8e6dbe8dd9a81e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Mar 1 11:37:45 2025 -0300
+
+    add coment on photos page for best maintenance
+
+[33mcommit 8cbeff0388b033c440ff4b04b4a7c5a06bbe2c8e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Feb 28 12:07:51 2025 -0300
+
+    add style on font in the names on our products section and adjust
+
+[33mcommit f7d77e9b7974b8f3799442559d875ba1238072b7[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Feb 28 11:55:39 2025 -0300
+
+    add coment div and section our products on page001
+
+[33mcommit aaa64ddec65c76694a3fc52ef177502884e87104[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 27 11:33:40 2025 -0300
+
+    add syle hover on img the class on our products section
+
+[33mcommit e0c8c16b22f62acea2e1adfb5820536a8edf5c48[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 27 11:23:45 2025 -0300
+
+    add few styles css on our products on desktop css
+
+[33mcommit db8af6a86760526480561ae7840f8e3e64dcb93b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Feb 26 10:31:51 2025 -0300
+
+    add css style on text our products
+
+[33mcommit 2ddc5e45c7753597e13f8971108154378e87569a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Feb 26 10:26:10 2025 -0300
+
+    add div text product on page 001 and add style on desktop css
+
+[33mcommit 011b71755efe35fdd4e2b9270885ecb173e0327c[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 25 10:55:29 2025 -0300
+
+    add style on each outher product in page 001 and add class on each img the same
+
+[33mcommit be2137a91289aae5ae697e9342a0adee21963aa3[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 25 10:28:06 2025 -0300
+
+    add imgs on static files on page 001 and css style on section outher products add on descktop css file
+
+[33mcommit 9d093ed90d96bb818be0d66eaed6f8bd596c8c27[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 25 10:16:58 2025 -0300
+
+    add imgs on static parceitos and add coment line on page 001
+
+[33mcommit b782241256d1fd7099a87b8d29c2e06f27d1d44c[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Feb 24 15:51:55 2025 -0300
+
+    add section outer products on page 001 and add h2 style on desktop css
+
+[33mcommit 9136e8488cd520e8c5cdd6508c5131f422db273b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Feb 23 12:50:56 2025 -0300
+
+    add migrations on models and swap supplier for enterprise
+
+[33mcommit 7177bd5fcf37f1426abc99334e99858642fdeff4[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Feb 19 16:17:49 2025 -0300
+
+    add foreingkey on models the app parceiros on products model
+
+[33mcommit 3ef3deb0562b1f5421af4b797cd0d343244e4d6a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 18 12:00:36 2025 -0300
+
+    caroucel on top page 001 on app parceiros, modify the time for swap annoucement for autoplaying to beater usability
+
+[33mcommit 8714ada1f96135a77c89d95b4b1715e1d6a0430e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 18 11:00:19 2025 -0300
+
+    add font on style css , and add new designer on h1 section top on page 001
+
+[33mcommit 45ab14b10b58b2bbd174916ca7df3cb6ec4fd262[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Feb 17 12:17:16 2025 -0300
+
+    swap new view height on css style
+
+[33mcommit 4886267b08d46daf39bc503d7155a05d6e8006ec[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Feb 17 12:01:25 2025 -0300
+
+    add full 3 annouciment on top setion page 001
+
+[33mcommit 4f969bac85d44804dbe89b8018af15921cbe3683[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Feb 14 15:56:53 2025 -0300
+
+    add coment on page base page
+
+[33mcommit 3f6dce9462bb5144a68727375430643323cb63ea[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Feb 14 15:45:31 2025 -0300
+
+    add coment on page 001
+
+[33mcommit 1e6e1ee5691acc6a550c389e79c00ba07c71fe10[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 13 16:35:21 2025 -0300
+
+    add new item caroucel on annoucement page 001'
+
+[33mcommit 14cd0f7d0494c483cd6ebd25351c9a97cd6acfe1[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 13 15:44:35 2025 -0300
+
+    add divs carroucels on annoucement section for many annoucements
+
+[33mcommit 87d0c8be6d0311d205aaa2cbaf42625c1d60cd9c[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 13 15:34:26 2025 -0300
+
+    add icon profile on navbar'
+
+[33mcommit 76fd0e147e78a40f9da37144015eb1cac8d4f309[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Feb 10 14:29:43 2025 -0300
+
+    add comment on page 001 html
+
+[33mcommit f518651b3c1b88c8f9eaaf79454df6f141cac23d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Feb 9 20:52:31 2025 -0300
+
+    add coment on section enterprises suppliers page
+
+[33mcommit af40959c7722ad7ebbf4cf5b46504ddc489ece82[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Feb 8 16:26:12 2025 -0300
+
+    add codicion on supplier page for users authenticated
+
+[33mcommit d9674d731d0f7ccfae912ddd73d9f71f76a177eb[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Feb 7 16:26:26 2025 -0300
+
+    add logout on views user app
+
+[33mcommit 4e01f17150ed85501229a1a12374302bfb678189[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 6 11:30:50 2025 -0300
+
+    add condition on base html for users authenticated and logout funcion swap for condition
+
+[33mcommit 2f6dbc99c1b274bf28b3c7609d2793d1ecb09232[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Feb 6 11:09:20 2025 -0300
+
+    fix the login form and login autenticad on views.py
+
+[33mcommit 0b5fb9b662233bcacbe6dc2c0dcae7d3ba46e34f[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Feb 5 11:20:20 2025 -0300
+
+    fix login form and page login on user app
+
+[33mcommit 26cf59e661bd68a89e882b822f7bf7188f7f779d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Feb 5 11:15:40 2025 -0300
+
+    register form finalish with autenticted include
+
+[33mcommit 67b641b28d58396622dbfce0c425e34ec0a32e33[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Feb 4 12:49:38 2025 -0300
+
+    fix to form error is valid on forms .py users app
+
+[33mcommit f68344f2e290d228839b3e1c77aa1c70c063f0bd[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Feb 1 20:13:47 2025 -0300
+
+    try form valid on views and html
+
+[33mcommit 3a5c8894c2cd5535fc787d717ee0845ccc3e7ae9[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 31 21:25:34 2025 -0300
+
+    add password input on register form
+
+[33mcommit 7cd870077cf06524ed61078788eb288b08a96d5b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 31 20:21:01 2025 -0300
+
+    valid form on code right position
+
+[33mcommit 5246dedaddd5b0b1d55327a7ab0b0569e2404fe6[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Jan 30 11:17:40 2025 -0300
+
+    add createform on register form forms.py
+
+[33mcommit 26b194a6a66297830926cccfc8ddce6131d90383[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 29 11:36:58 2025 -0300
+
+    create new user on register form
+
+[33mcommit 25e7f444c6803b1259e87359f15307f9077180cf[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 29 10:56:23 2025 -0300
+
+    add create form on db on views users
+
+[33mcommit 07d9ed396065b51e61f3f665154888ef5f68483d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 28 10:28:00 2025 -0300
+
+    login form and register form finish, and with intructions
+
+[33mcommit 8ede684c8c18aa93064281b8fb6f93aeae8e5059[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 28 10:06:36 2025 -0300
+
+    form login finalish
+
+[33mcommit 0b1b5372bf64c03c5c154cd81104f2d2f3a82f7a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 27 18:22:37 2025 -0300
+
+    add form fiels on login form
+
+[33mcommit 6f14b7902ea85b74d143c8438f99ba0f49689893[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Jan 26 13:41:55 2025 -0300
+
+     add dict on page login templatej
+
+[33mcommit 826cba09dde4ba759744beac34a296454ddc1a74[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 25 16:33:52 2025 -0300
+
+    add template on login page
+
+[33mcommit 09f5b56f60d896cfb73a2ef04d775ef41fe57e22[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 24 11:58:37 2025 -0300
+
+    add fom with if and for template django
+
+[33mcommit d80c7ca206a5d6a942bc08b2d2955b4fd9f344f5[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Jan 23 15:32:44 2025 -0300
+
+    add label in all forms
+
+[33mcommit c6b3771ecfa3c0333c1f2a1db8d2bdc575c2c395[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 22 15:00:06 2025 -0300
+
+    add form as on rigister form document
+
+[33mcommit c432896ddadd20d2f674cc533ce0220a02b8ab2a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 21 15:39:51 2025 -0300
+
+    render forms on document on login form and code on viewns.py document
+
+[33mcommit eb22a97678ac1e1d50def1de52c9ddf9417d17cc[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 21 15:25:15 2025 -0300
+
+    create a new form on document form.py , one form for db login
+
+[33mcommit eb784846bfd7874a8dd78865715a3d989bd48bb3[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 20 13:37:31 2025 -0300
+
+    import moduls in forms.py document in users
+
+[33mcommit 016ed6c4b9ea12cd5fa1145424d1582a2c718f3a[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 20 13:33:32 2025 -0300
+
+    add file forms.py on document user
+
+[33mcommit 5109e068b0a6c6fd5ec3b1c257cf2bf8b3ac5678[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 20 13:27:21 2025 -0300
+
+    add button logout for users login
+
+[33mcommit 461ee27866690855b891926496ee47ad8f570124[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 20 10:57:32 2025 -0300
+
+    add crsf token on form in login and ajust the interline
+
+[33mcommit 9770aef152a5b79efb16581fc7e43a51fb2d721e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Jan 19 12:10:22 2025 -0300
+
+    creat condicion on viewns user for login, and work fine the web page login
+
+[33mcommit fa34da55a63c90eef487738c0b3a34d88aa3fcd6[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Jan 19 10:52:04 2025 -0300
+
+    create views user authenticad
+
+[33mcommit 69902365d7609140a6e09c3da75ce24a717a4a1b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 18 08:53:43 2025 -0300
+
+    add style on help login and register and add placeholder on each input
+
+[33mcommit 1ec1862c5c0d7769d6caaa0b71c4017578dc2490[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 17 12:10:42 2025 -0300
+
+    add footer on bootom the document, and finish the register document
+
+[33mcommit b92266e8570b51649a2af2a71e7af02d0a70e17b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 17 11:53:42 2025 -0300
+
+    style login page finish, and page register create, url path and viwns route create for register
+
+[33mcommit 311a61d206ba1aad8c63ca110332aca521f9b251[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Jan 16 15:08:37 2025 -0300
+
+    add url project users, and render web page user login
+
+[33mcommit 6a077bc9ea1173d441c8c587f1c26ba7ce3996bb[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 15 11:06:37 2025 -0300
+
+    create new app users, for logon, and create route and views, on app
+
+[33mcommit 49a907baafdb4010e8de0b4307411fd4a1076d63[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 15 10:43:45 2025 -0300
+
+    add button and div the logon
+
+[33mcommit ce6cdb2ea4b9c1b0550bbcb791282c92c17b8cc0[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 14 11:44:20 2025 -0300
+
+    page photos finish , style diferent included
+
+[33mcommit 9c4604b13c3a443ce1c7a75ffae92872df915837[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 14 10:53:32 2025 -0300
+
+    add url and viwns rout for photos page
+
+[33mcommit 0a2fd696eaf4759509c35a2c08dc1f93f3ff852e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 14 10:36:34 2025 -0300
+
+    add page photos on document and tags essentials
+
+[33mcommit 3eaf2593ee3ebdf33ca20ff65116ec8d9fb79757[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 13 17:47:21 2025 -0300
+
+    add background on section info, and font swap
+
+[33mcommit cca6b3f23acf5a1d20e3ca8680516a749f0e09f2[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Jan 12 16:46:50 2025 -0300
+
+    add new section and divs on page info
+
+[33mcommit f3127dc189cce840d1c7d35dc60a843ae02b0cde[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 11 11:42:12 2025 -0300
+
+    add page info on document and render on views, and create a rout
+
+[33mcommit a1e534a156c1a8e79cd6083cfd8dd85056266e3e[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 11 10:52:21 2025 -0300
+
+    add div content_enterprise in each div enterprise on main , and swap h2 for in div content_enterprise and add css alingn with animation hover
+
+[33mcommit 647a7dfaef2629f71f6b6fcdcdbf3562b9f2374f[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 11 10:26:55 2025 -0300
+
+    add class with class on each enterprise on main
+
+[33mcommit 595de82db345c69727c55dad37ddf138a9089ab9[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 10 14:58:18 2025 -0300
+
+    add href > a on div mid section and page supplier on suppliers
+
+[33mcommit 668554a448153c6bb7d5ebefbf1bea9f78cd51b7[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 10 14:34:51 2025 -0300
+
+    add background on p in section mid , and add class container and alingn position
+
+[33mcommit 8a93330c404e06976b36a9779a033f7c29a1ad3b[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 10 11:43:42 2025 -0300
+
+    remove paragraphy on footer and center div of the footer boottom on container
+
+[33mcommit 5d05c69c9da084e16195eddcead051eca9c7c785[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Thu Jan 9 11:52:23 2025 -0300
+
+    add navbar on top the main on enterprise page, and css style finalizad
+
+[33mcommit 8aefa07543a8bb4ab5f332a548512032881794ce[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 8 15:07:56 2025 -0300
+
+    swap font size on header text
+
+[33mcommit 96729dcd539a8e832f78c4a2a2684ad67297dc85[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Wed Jan 8 15:01:53 2025 -0300
+
+    add box shadow on enterprises class and position footer
+
+[33mcommit c91b121e542de66b76b5354dfd412071833aed78[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 7 12:08:33 2025 -0300
+
+    align div layer enterprise with img interprise and swap color on section enterprise
+
+[33mcommit 1d75a4b2d6132e919ecb70cbacd21bf2488039b0[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 7 11:20:00 2025 -0300
+
+    add css on imgs interprise and posicioned
+
+[33mcommit d6ea990ce2849ec65452caf123467533f19f97af[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Tue Jan 7 10:44:00 2025 -0300
+
+    imgs add in page interprise and templates tag the base html positioned
+
+[33mcommit dbf7d2c10689ef82497e5a9140ec57dbe0d8716d[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 6 12:32:19 2025 -0300
+
+    add footer on bases and delete on index, and add template tag on supplier html page
+
+[33mcommit b2c2d14cebce4f24327588dc05818419e9aad455[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Mon Jan 6 12:24:28 2025 -0300
+
+    add extends on base html on index html, and template tag on index position correct, templates on bases html with , bootstrap5, bootstrap css and bootstrap javascript
+
+[33mcommit cce9b48131b3a973fd775f962bc4a5e1bc4ad310[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sun Jan 5 12:56:21 2025 -0300
+
+    add page suppliers on template and add on uls paths
+
+[33mcommit 7bc4ec1580b11bc969a682205c91935b50e3dcb4[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 4 20:56:15 2025 -0300
+
+    add hover on nav-bar, and config button on upper main section
+
+[33mcommit a535675a1ff840cedc630b9743ed97a8d10f0a46[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Sat Jan 4 18:44:17 2025 -0300
+
+    footer style and paragraphy add
+
+[33mcommit 9620a3a73966031a20869e8fc4c46c4f08407c82[m
+Author: xKuth <luisyeager20@gmail.com>
+Date:   Fri Jan 3 16:08:14 2025 -0300
+
+    add footer text and ul text, add css style display inline on ul list
