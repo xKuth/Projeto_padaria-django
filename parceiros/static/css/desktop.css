@@ -55,7 +55,7 @@ main{
 }
 section.upper_main_img{
     background: black url('../imgs/background_img_upper.jpg') no-repeat;
-    height: 80vh;
+    height: 88vh;
     border-radius: 1%;
     color: black;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.795);
@@ -139,7 +139,7 @@ img#pizza_anuciment{
     margin-top: 1%;
     padding-top: 2%;
     border-radius: 2px;
-    height: 60vh;
+    height: 70vh;
     min-height: 50vh;
 }
 h2.title_produts{
@@ -184,7 +184,7 @@ h2.title_produts{
 }
 /* Section extra infor */
 .section_infor_extra{
-    height: 70vh;
+    height: 83vh;
     margin-top: 4%;
     background-color: rgba(205, 211, 197, 0.336);
     border: 2px solid white;
@@ -438,5 +438,7 @@ section#bg_register{
     font-size: 1.3vw;
     text-align: center;
     background-color: rgb(255, 254, 253);
+    padding: 4%;
+    margin: 0;
  }
 

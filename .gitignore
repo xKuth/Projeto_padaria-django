@@ -1,3 +1,5 @@
-Scripts
 README.md
 db.sqlite3
+padoca
+.env
+pyvenv.cfg
