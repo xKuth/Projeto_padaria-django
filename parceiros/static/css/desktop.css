@@ -148,40 +148,7 @@ h2.title_produts{
     color: white;
     padding-bottom: 4%;
 }
-.our_produts{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.ref_ou_product > .enterprise_img{
-    background-color: rgba(240, 248, 255, 0.829);
-    box-shadow: none;
-    min-width: 50%;
-   
-}
-.ref_ou_product > .enterprise_img:hover{
-    transform: scale(0.9);
-    transition: 0.3s;
-    margin-top: 5%;
-}
 
-.ref_ou_product:hover{
-    border-radius: 2%;
-    text-align: center;
-}
-
-.text_our_products{
-    color: black;
-    display: flex;
-    position: relative;
-    bottom: 2em;
-    margin-left: 7%;
-    justify-items: first baseline;
-    gap: 21%;
-}
-.text_our_products > h3 {
-    font-family: "Tinos";    
-}
 /* Section extra infor */
 .section_infor_extra{
     height: 83vh;
