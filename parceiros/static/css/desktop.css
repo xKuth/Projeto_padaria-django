@@ -142,6 +142,14 @@ img#pizza_anuciment{
     height: 70vh;
     min-height: 50vh;
 }
+.section_outher_products > .content_products{
+    justify-content: space-evenly;
+    padding: 2%;
+}
+ .section_outher_products > .itens-img:hover{
+    transform: scale(5.0);
+}
+
 h2.title_produts{
     text-align: center;
     font: normal 3em "Dancing Script";
@@ -392,7 +400,7 @@ section#bg_register{
 
  div.itens-img:hover{
     background-color: rgba(238, 232, 232, 0.842);
-    box-shadow: 5px 5px 3px rgba(173, 216, 230, 0.637);
+    box-shadow: 5px 5px 3px rgba(18, 23, 24, 0.637);
     transition: 0.2s;
     transform: scale(1.1);
  }
