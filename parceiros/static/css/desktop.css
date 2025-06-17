@@ -146,8 +146,9 @@ img#pizza_anuciment{
     justify-content: space-evenly;
     padding: 2%;
 }
- .section_outher_products > .itens-img:hover{
-    transform: scale(5.0);
+ .ref_item_product:hover{
+    transform: scale(0.8);
+    transition: 0.3s;
 }
 
 h2.title_produts{
