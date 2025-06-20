@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @media screen and (max-width: 768px){
     /*nav-bar*/
-    nav#not_block{
-        display: inline;
+    nav#not_block, a.navbar-brand{
+        display: flex;
     }
     
     ul#nav_not_vertical, li{
@@ -29,6 +29,10 @@
         display: block;
     }
 
+    .navbar-toggler{
+        display: flex;
+        margin: 2%;
+    }
     
     
 }

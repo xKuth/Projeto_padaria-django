@@ -19,13 +19,22 @@ body{
 
 /* navbar */
 nav#not_block{
+     display: flex;
     color: wheat;
     padding-right: 2%;
+   
 }
+.img_nav{
+    display: flex;
+    margin-right: 42%;
+}
+
 li.nav-item{
     text-decoration: underline;
 }
-
+ul#nav_not_vertical{
+    display: flex;
+}
 ul#nav_not_vertical > li{
     font-size: 1.5vw;
     
