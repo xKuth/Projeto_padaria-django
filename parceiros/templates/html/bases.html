@@ -48,7 +48,22 @@
         </div><!-- End div User authenticated -->
         <button onclick="buttonexternal()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" 
             aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><!--button external ul-->
-            <span class="navbar-toggler-icon"></span><!--Icon external ul-->
+            <span class="navbar-toggler-icon">
+                <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
+                    <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
+                        <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a><!-- page enterprises -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a><!-- page photos -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
+                    </li>
+                </ul>
+            </span><!--Icon external ul-->
         </button>
 
     </nav><!-- end navegation desktop -->
