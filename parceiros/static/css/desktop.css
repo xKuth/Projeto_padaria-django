@@ -16,10 +16,25 @@ html{
 body{
     margin-bottom: 60px;
 }
-
+/*Overlay mobile*/
+.section_overlay{
+    display: flex;
+    position: absolute;
+    margin-left: 48vw;
+    
+}
+.overlay{
+    width: 50vw;
+    height: 100vh;
+    
+    position: absolute;
+    background-color: black;
+    color: black;
+}
 /* navbar */
+
 nav#not_block{
-     display: flex;
+    display: flex;
     color: wheat;
     padding-right: 2%;
    
@@ -39,7 +54,6 @@ ul#nav_not_vertical > li{
     font-size: 1.5vw;
     
 }
-
 .nav-link.active:hover{
     background-color: rgba(255, 255, 255, 0.705);
     animation: 0.2;
@@ -56,7 +70,8 @@ i.bi.bi-person-circle{
 main{
     height: 88%;
     width: 100%;
-    padding-top: 2%;
+    margin-top: 6%;
+    padding-top: 1%;
     padding-right: 4%;
     padding-left: 4%;
     background-color: rgba(2, 2, 1, 0.753);
