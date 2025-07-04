@@ -13,43 +13,16 @@
     {% bootstrap_javascript %}<!-- import javascript bootstrap -->
 </head>
 <body>
-    <nav class="navbar justify-content-end navbar-expand-md fixed-top navbar-dark bg-dark" id="not_block"><!-- Navegation desktop -->
-       <div class="img_nav">
-           <a class="navbar-brand" href="{% url 'pagina001' %}" style="margin-left: 5%;">
-               <img src="{% static '/imgs/logo_loja.png' %}" alt="Bootstrap" width="90" id="img_size">
-            </a>
-        </div>
-  
-        <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
-            
-            <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
-                <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a><!-- page enterprises -->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a><!-- page photos -->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
-            </li>
-        </ul>
-        <div class="col-md-3 text-end" id="not_underline"><!-- div with user auth or not -->
-            {% if user.is_authenticated %}<!-- Condition user auth -->
-                <a href="#" style="color: aliceblue;"><!-- User authenticated -->
-                    <i class="bi bi-person-circle" id="icon-login"></i>{{ user }}
-                </a>
-                <button class="btn btn-outline-primary me-2"><a href="{% url 'logout' %}"><i class="bi bi-box-arrow-right"></i></a></button>
-                {% else %}<!-- User not authenticated -->
-                <a href="{% url 'logon' %}"><button class="btn btn-outline-primary me-2">Entrar</button></a>
-                <a href="{% url 'register' %}"><button class="btn btn-primary">Registrar</button></a>
-            {% endif %}
-        </div><!-- End div User authenticated -->
-        <button onclick="buttonexternal()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" 
-            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><!--button external ul-->
-            <span class="navbar-toggler-icon">
+    <header>
+        <nav class="navbar justify-content-end navbar-expand-md fixed-top navbar-dark bg-dark" id="not_block"><!-- Navegation desktop -->
+            <div class="img_nav">
+                <a class="navbar-brand" href="{% url 'pagina001' %}" style="margin-left: 5%;">
+                    <img src="{% static '/imgs/logo_loja.png' %}" alt="Bootstrap" width="90" id="img_size">
+                    </a>
+                </div>
+        
                 <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
+                    
                     <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
                         <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
                     </li>
@@ -63,16 +36,60 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
                     </li>
                 </ul>
-            </span><!--Icon external ul-->
-        </button>
-    </nav><!-- end navegation desktop -->
-    <br>
-    <section class="section_overlay">
-        <div class="overlay">
-
-        </div>
-    </section>
+                <div class="col-md-3 text-end" id="not_underline"><!-- div with user auth or not -->
+                    {% if user.is_authenticated %}<!-- Condition user auth -->
+                        <a href="#" style="color: aliceblue;"><!-- User authenticated -->
+                            <i class="bi bi-person-circle" id="icon-login"></i>{{ user }}
+                        </a>
+                        <button class="btn btn-outline-primary me-2"><a href="{% url 'logout' %}"><i class="bi bi-box-arrow-right"></i></a></button>
+                        {% else %}<!-- User not authenticated -->
+                        <a href="{% url 'logon' %}"><button class="btn btn-outline-primary me-2">Entrar</button></a>
+                        <a href="{% url 'register' %}"><button class="btn btn-primary">Registrar</button></a>
+                    {% endif %}
+                </div><!-- End div User authenticated -->
+                <button onclick="buttonexternal()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" 
+                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><!--button external ul-->
+                    <span class="navbar-toggler-icon">
+                        <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
+                            <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
+                                <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a><!-- page enterprises -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a><!-- page photos -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
+                            </li>
+                        </ul>
+                    </span><!--Icon external ul-->
+                </button>
+        </nav><!-- end navegation desktop -->
+            <br>
+            <section class="section_overlay">
+                <div class="overlay">
+                    <ul class="navbar-nav" id="nav_not_vertical"><!-- list all sections pages -->
+                    
+                        <li class="nav-item" id="nav_not_vertical"><!-- List all links  -->
+                            <a class="nav-link active" aria-current="page" href="{% url 'pagina001' %}">Inico</a><!-- page home -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'suppliers' %}">Empresas</a><!-- page enterprises -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'photos' %}">Fotos</a><!-- page photos -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'infor' %}">Sobre</a><!-- page about -->
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    </header>
     {% block header %}{% endblock header %}
+    {% block content %}{% endblock content %}
     <footer><!-- Footer export -->
         <div class="container"><!-- bootstrap5 flex import -->
             <div class="footer_info"><!-- Div footer -->

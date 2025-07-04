@@ -21,15 +21,16 @@ body{
     display: flex;
     position: absolute;
     margin-left: 48vw;
+    margin-top: 5%;
     
 }
 .overlay{
     width: 50vw;
     height: 100vh;
+    position: absolute;
     
     position: absolute;
-    background-color: black;
-    color: black;
+    background-color: rgb(216, 12, 12);
 }
 /* navbar */
 
