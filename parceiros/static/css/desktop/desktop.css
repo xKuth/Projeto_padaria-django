@@ -20,17 +20,20 @@ body{
 .section_overlay{
     display: flex;
     position: absolute;
-    margin-left: 48vw;
     margin-top: 5%;
     
 }
 .overlay{
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
-    position: absolute;
-    
-    position: absolute;
-    background-color: rgb(216, 12, 12);
+    position: fixed;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.797);
+}
+ul#overlay_ul{
+    font-size: 3vw;
+    align-items: center;
+
 }
 /* navbar */
 
@@ -93,7 +96,9 @@ section.upper_main_img > h1{
     box-shadow: 0px 1px white;
     padding-top: 4%;
 }
-
+div#carouselExampleAutoplaying{
+    position: relative;
+}
 .anunnciment{  
     display: inline;
     padding-top: 1%;
@@ -121,8 +126,10 @@ div.text-img > h2 , p{
 }
 .img-anoucement{
     display: inline;
+    position: relative;
     margin-left: 2%;
     max-width: 100%;
+    z-index: 2;
 
 }
 
