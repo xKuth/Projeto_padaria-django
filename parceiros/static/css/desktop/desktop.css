@@ -20,15 +20,18 @@ body{
 .section_overlay{
     display: flex;
     position: absolute;
+    margin-left: 48vw;
     margin-top: 5%;
     
 }
 .overlay{
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     position: fixed;
     display: inline-block;
+    padding-top: 5%;
     background-color: rgba(0, 0, 0, 0.797);
+    color: blueviolet;
 }
 ul#overlay_ul{
     font-size: 3vw;
@@ -81,13 +84,15 @@ main{
     background-color: rgba(2, 2, 1, 0.753);
     padding-bottom: 5%;
 }
+
 section.upper_main_img{
-    background: black url('../imgs/background_img_upper.jpg') no-repeat;
+    background: black url('../../imgs/background_img_upper.jpg') no-repeat;
     height: 88vh;
     border-radius: 1%;
     color: black;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.795);
 }
+
 section.upper_main_img > h1{
     font-family: 'Tinos', 'Serif';
     font-size: 5vw;
@@ -96,6 +101,7 @@ section.upper_main_img > h1{
     box-shadow: 0px 1px white;
     padding-top: 4%;
 }
+
 div#carouselExampleAutoplaying{
     position: relative;
 }
@@ -244,7 +250,7 @@ img#central_extra_info_img{
 /* Mid section annoucement */
 
 .mid_main_anouciment{
-    background: black url('../imgs/background_mid.png') no-repeat;
+    background: black url('../../imgs/background_mid.png') no-repeat;
     background-size: cover;
     margin-top: 1%;
     border-radius: 2%;
@@ -265,7 +271,7 @@ img#central_extra_info_img{
 }
 
 section#background_bread{
-    background: black url('../imgs/background_img_bread.png');
+    background: black url('../../imgs/background_img_bread.png');
     background-size: cover;
 }
 /* footer */
@@ -346,7 +352,7 @@ nav#nav-enterprise{
 .section_info{
     padding-top: 4%;
     margin-top: 4%;
-    background: url('../imgs/background_info.png') black no-repeat;
+    background: url('../../imgs/background_info.png') black no-repeat;
     background-size: cover;
     height:30vh;
 }
@@ -383,7 +389,7 @@ section#Photos_bg{
 .section_login{
     padding: 10%;
     margin-top: 3%;
-    background: black url('../imgs/login_page.png') no-repeat;
+    background: black url('../../imgs/login_page.png') no-repeat;
     background-size: cover;
     box-shadow: 0px 5px 3px 3px black;
     
@@ -400,7 +406,7 @@ div#emailHelp{
 
 /* section register main */
 section#bg_register{
-    background: black url('../imgs/register_page.png');
+    background: black url('../../imgs/register_page.png');
 }
 
  /* interprise products page */
