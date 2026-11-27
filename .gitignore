@@ -1,5 +1,6 @@
 db.sqlite3
 padoca
 .env
+.venv
 pyvenv.cfg
 fdaf
