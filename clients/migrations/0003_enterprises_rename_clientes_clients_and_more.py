@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('parceiros', '0002_rename_supliers_enterprise'),
+        ('clients', '0002_rename_supliers_enterprise'),
     ]
 
     operations = [
@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id_suplier', models.BigAutoField(primary_key=True, serialize=False)),
                 ('name_enterprise', models.CharField(max_length=50)),
                 ('data_criation', models.DateTimeField(auto_now_add=True)),
-                ('refer_enterprise', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='parceiros.products')),
+                ('refer_enterprise', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='clients.products')),
             ],
         ),
         migrations.RenameModel(

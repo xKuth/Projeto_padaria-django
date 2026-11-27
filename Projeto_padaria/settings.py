@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Projeto_padaria',
-    'parceiros',
+    'clients',
     'users',
     'interprises',
     'bootstrap5',
