@@ -4,3 +4,5 @@ padoca
 .venv
 pyvenv.cfg
 fdaf
+__pycache__/
+*.pyc
