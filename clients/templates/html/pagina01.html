@@ -1,181 +1,245 @@
-<!DOCTYPE html>
-{% extends 'html/bases.html' %}<!-- import page base.html -->
-{% load static %}<!-- Loading static css and imgs files -->
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><!-- import icons bootstrap5 -->
-        <link rel="stylesheet" href="{% static 'css/mobile/mobile.css'  %}" alt="css_max768"><!-- import static css mobile base -->
-        <link rel="stylesheet" href="{% static 'css/desktop/desktop.css' %}" type="text/css" alt="css_max1300"><!-- import static css base -->
-        <title>Pagina Principal</title>
-        
-</head>
-<body>
-    {% block header %}{% endblock header%}<!-- End content import base.html -->
-    {% block content %}
-    <main><!-- Content out the import -->
+{% extends 'html/bases.html' %}
+{% load static %}
 
+{% block title %}Padoca - Página Principal{% endblock title %}
 
-        <section class="upper_main_img"><!-- section for annouciment carrocel! -->
-            <h1>Fornecedores do dia</h1>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators"><!-- button the viewns page active -->
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div><!-- End button the viewns page active -->
-                <div class="carousel-inner"><!-- Caroucel div all item-->
-
-                    <div class="carousel-item active"><!-- Caroucel page 1 -->
-
-                        <div class="container"><!-- div flex import bootstrap5 -->
-                            <div class="anunnciment"><!-- Div annouciment carrocel -->
-                                <div class="text-img">
-                                    <h2>Pizza Italiana</h2>
-                                    <p>Deliciosa pizza italina a com tomate pomodoro e de longa fermentação</p>
-                                    <a href="{% url 'interprises' %}"><button class="button_annoucement">Ver Loja</button></a>
-                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
-                                </div><!-- Div Img annouciment -->
-
-                                <div class="img-anoucement" class="img-fluid">
-                                    <img src="{% static '/imgs/pizza.png' %}" alt="img_pizza" id="pizza_anuciment">
-                                </div><!-- End Div Img annouciment -->
-                            </div><!-- End Div annouciment carrocel -->
-                        </div><!-- End div flex import bootstrap5 -->
-
-                    </div>
-                    <div class="carousel-item"><!-- Caroucel page 2-->
-
-                        <div class="container"><!-- div flex import bootstrap5 -->
-                            <div class="anunnciment"><!-- Div annouciment carrocel -->
-                                <div class="text-img">
-                                    <h2>Pães do dia</h2>
-                                    <p>Delicioso pão caseiro com ingredientes de otima qualidade para melhorar a experiencia do seu dia</p>
-                                    <a href="{% url 'interprises' %}"><button class="button_annoucement">Ver Loja</button></a>
-                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
-                                </div><!-- Div Img annouciment -->
-
-                                <div class="img-anoucement" class="img-fluid">
-                                    <img src="{% static '/imgs/pao.png' %}" alt="img_pizza" id="pizza_anuciment">
-                                </div><!-- End Div Img annouciment -->
-                            </div><!-- End Div annouciment carrocel -->
-                        </div><!-- End div flex import bootstrap5 -->
-
-                    </div>
- 
-                    <div class="carousel-item"><!-- Caroucel page 2-->
-
-                        <div class="container"><!-- div flex import bootstrap5 -->
-                            <div class="anunnciment"><!-- Div annouciment carrocel -->
-                                <div class="text-img">
-                                    <h2>Crossant</h2>
-                                    <p>Delicioso crossant feito com materia importado para melhorar seu dia</p>
-                                    <a href="{% url 'interprises' %}"><button class="button_annoucement">Ver Loja</button></a>
-                                    <button class="button_annoucement-nonebg">Fazer pedido</button>
-                                </div><!-- Div Img annouciment -->
-
-                                <div class="img-anoucement" class="img-fluid">
-                                    <img src="{% static '/imgs/croassant.png' %}" alt="img_pizza" id="pizza_anuciment">
-                                </div><!-- End Div Img annouciment -->
-                            </div><!-- End Div annouciment carrocel -->
-                        </div><!-- End div flex import bootstrap5 -->
-
+{% block content %}
+<main>
+    <!-- Hero Carousel -->
+    <section class="padoca-hero">
+        <div class="container">
+            <div id="padocaHeroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-6 hero-animate">
+                                <span class="hero-badge"><i class="bi bi-stars"></i> Fornecedores do dia</span>
+                                <h1>Pizza Italiana De Longa Fermentação</h1>
+                                <p>Massa leve, tomate pomodoro selecionado e preparo artesanal direto das nossas lojas parceiras para você.</p>
+                                <div class="hero-actions d-flex gap-3">
+                                    <a href="{% url 'interprises' %}" class="btn-padoca">Ver Loja <i class="bi bi-arrow-right"></i></a>
+                                    <a href="{% url 'suppliers' %}" class="btn-padoca-outline">Fazer Pedido</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-stage">
+                                    <img src="{% static 'imgs/pizza.png' %}" alt="Pizza Italiana" class="float-visual">
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"><!-- Butt swap caroucel prev-->
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"><!-- Butt swap caroucel next-->
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-        </section><!-- End section for annouciment carrocel -->
-        <section class="section_infor_extra">
-            <h2>COMO NOS<br>COMEÇAMOS A PANIFICAÇÃO!</h2>
-            <div class="content_extra_info">
-                <div class="text_in">
-
-                    <p>A historia começa em 1990 quando (...) fundou a empresa (...) com apenas parte do dinheiro que tinha juntado para pagar posteriores prestações de seus bens, com apenas uma convicção que conseguiria impusionar seu negocio , (...) fundou sua empresa de panificação , hoje sua empresa com mais de (...) funcionarios em diversas posições indo de produção a vendas externas , de fato (...) conseguiu mudar a visão de seu negocio.</p><br>
-                    <a href="{% url 'infor' %}"><button type="button" style="margin-left: 5%;" class="button_annoucement-nonebg" >Leia mais</button></a>
-                    
-                </div>
-                <div class="imgs_extra_info">
-
-                    <div class="imgs_extra_column">
-                        <img src="{% static '/imgs/tag_01.png' %}" alt="img_left_top" class="width_extra_info_img">
-                        <img src="{% static '/imgs/tag_02.png' %}" alt="img_left_bootom" class="width_extra_info_img">
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-6 hero-animate">
+                                <span class="hero-badge"><i class="bi bi-brightness-high"></i> Fornada fresca</span>
+                                <h1>Pães Do Dia Com Qualidade Artesanal</h1>
+                                <p>Pães caseiros com ingredientes selecionados para transformar o café da manhã e atender o seu negócio.</p>
+                                <div class="hero-actions d-flex gap-3">
+                                    <a href="{% url 'interprises' %}" class="btn-padoca">Ver Loja <i class="bi bi-arrow-right"></i></a>
+                                    <a href="{% url 'photos' %}" class="btn-padoca-outline">Ver Fotos</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-stage">
+                                    <img src="{% static 'imgs/pao.png' %}" alt="Pães do dia" class="float-visual">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="img_extra_central">
-                        <img src="{% static '/imgs/tag_04.png' %}" alt="img_central" id="central_extra_info_img">
-                    </div>
-                    <div class="imgs_extra_column">
-                        <img src="{% static '/imgs/tag_03.png' %}" alt="img_right_top" class="width_extra_info_img">
-                        <img src="{% static '/imgs/tag_05.png' %}" alt="img_right_bootom" class="width_extra_info_img">
 
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section_outher_products"><!-- Section outher products -->
-            
-            <h2 class="title_produts">OUTROS PRODUTOS</h2>
-            <div class="content_products"><!-- Start container bootstrap5 -->
-                
-                <a href="#" style="text-decoration: none;color: black;" class="ref_item_product">
-                    <div class="itens-img">
-                        <img src="{% static '/imgs/salgados.png' %}" alt="" class="enterprise_product_img"><h3>SALGADOS</h3>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration: none;color: black;" class="ref_item_product">
-                    <div class="itens-img">
-                        <img src="{% static '/imgs/tiramisu.png' %}" alt="" class="enterprise_product_img"><h3>TIRAMISU</h3>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration: none;color: black;" class="ref_item_product">
-                    <div class="itens-img">
-                        <img src="{% static '/imgs/bolo.png' %}" alt="" class="enterprise_product_img"><h3>BOLOS</h3>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration: none;color: black;" class="ref_item_product">
-                    <div class="itens-img">
-                        <img src="{% static '/imgs/brownie.png' %}" alt="" class="enterprise_product_img"><h3>BROWIE</h3>
-                    </div>
-                </a>
-
-            </div><!-- End container Bootrap5 -->
-        </section><!-- End Section outher products -->
-
-        <a href="{% url 'suppliers' %}"><!-- Link for enterprises -->
-            <section class="mid_main_anouciment"><!-- Section enterprises img -->
-                <div class="img_background_mid">
-                    <div class="container"><!-- Div import bootstrap5 -->
-                        <div class="paragraphy_mid">
-                            <p class="p_mid_section">Ver lojas parceiras</p>
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-6 hero-animate">
+                                <span class="hero-badge"><i class="bi bi-award"></i> Confeitaria fina</span>
+                                <h1>Croissants Folhados &amp; Receitas Especiais</h1>
+                                <p>Croissants feitos com matéria-prima importada, crocantes por fora e macios por dentro.</p>
+                                <div class="hero-actions d-flex gap-3">
+                                    <a href="{% url 'interprises' %}" class="btn-padoca">Explorar Menu <i class="bi bi-arrow-right"></i></a>
+                                    <a href="{% url 'infor' %}" class="btn-padoca-outline">Nossa História</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-stage">
+                                    <img src="{% static 'imgs/croassant.png' %}" alt="Croissant" class="float-visual">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section><!-- End Section enterprises img -->
-        </a><!-- End Link for enterprises -->
-        <a href="{% url 'photos' %}">
-            <section class="mid_main_anouciment" id="background_bread"><!-- Section products img -->
-                <div class="img_background_mid">
-                    <div class="container"><!-- Div import bootstrap5 -->
-                        <div class="paragraphy_mid">
-                            <p class="p_mid_section">Ver Fotos de produtos</p>
-                        </div>
-                    </div><!-- Div import bootstrap5 -->
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#padocaHeroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#padocaHeroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#padocaHeroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </section><!-- Section products img -->
-        </a>
-        
-    </main><!-- End Content out the import -->
-    {% endblock content %}
-    {% block footer %}{% endblock footer %}<!-- Content import footer -->
-</body>
-</html>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="padoca-stats">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-6 reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-clock-history"></i></div>
+                        <h3>1990</h3>
+                        <p>Tradição em panificação</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-shop"></i></div>
+                        <h3>24+</h3>
+                        <p>Lojas parceiras</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-basket2"></i></div>
+                        <h3>120+</h3>
+                        <p>Produtos artesanais</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-patch-check"></i></div>
+                        <h3>100%</h3>
+                        <p>Fornada diária</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="padoca-story">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 reveal">
+                    <span class="section-tag">Nossa História</span>
+                    <h2 class="display-6 mb-3">Como Começamos Na Panificação</h2>
+                    <p class="text-muted mb-3">
+                        A história começa em 1990, com a convicção de impulsionar um negócio familiar de panificação artesanal. Com dedicação diária e foco na qualidade, crescemos unindo produção cuidadosa, atendimento próximo e entregas ágeis.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Hoje conectamos padarias parceiras, confeiteiros e clientes em uma plataforma simples para descobrir produtos frescos e fazer encomendas.
+                    </p>
+                    <a href="{% url 'infor' %}" class="btn-padoca">Leia Mais <i class="bi bi-book"></i></a>
+                </div>
+                <div class="col-lg-6 reveal">
+                    <div class="story-mosaic">
+                        <img src="{% static 'imgs/tag_01.png' %}" alt="Panificação artesanal">
+                        <img src="{% static 'imgs/tag_03.png' %}" alt="Ingredientes selecionados">
+                        <img src="{% static 'imgs/tag_04.png' %}" alt="Fornada do dia" class="story-wide">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="padoca-products">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 reveal" style="max-width: 560px;">
+                <span class="section-tag">Cardápio</span>
+                <h2 class="display-6 mb-2">Outros Produtos</h2>
+                <p class="text-muted mb-0">Explore nossas categorias preparadas todos os dias pelas unidades parceiras.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="menu-card">
+                        <div class="menu-card-media">
+                            <img src="{% static 'imgs/salgados.png' %}" alt="Salgados">
+                        </div>
+                        <div class="menu-card-body">
+                            <div>
+                                <h4>Salgados</h4>
+                                <p>Folhados e assados fresquinhos para o dia a dia e eventos.</p>
+                            </div>
+                            <a href="{% url 'interprises' %}" class="btn btn-sm btn-outline-dark rounded-pill px-3">Ver opções</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="menu-card">
+                        <div class="menu-card-media">
+                            <img src="{% static 'imgs/tiramisu.png' %}" alt="Tiramisu">
+                        </div>
+                        <div class="menu-card-body">
+                            <div>
+                                <h4>Tiramisu</h4>
+                                <p>Sobremesa clássica com creme leve, café e cacau selecionado.</p>
+                            </div>
+                            <a href="{% url 'interprises' %}" class="btn btn-sm btn-outline-dark rounded-pill px-3">Ver opções</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="menu-card">
+                        <div class="menu-card-media">
+                            <img src="{% static 'imgs/bolo.png' %}" alt="Bolos">
+                        </div>
+                        <div class="menu-card-body">
+                            <div>
+                                <h4>Bolos</h4>
+                                <p>Bolos artesanais e confeitados feitos sob encomenda.</p>
+                            </div>
+                            <a href="{% url 'interprises' %}" class="btn btn-sm btn-outline-dark rounded-pill px-3">Ver opções</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="menu-card">
+                        <div class="menu-card-media">
+                            <img src="{% static 'imgs/brownie.png' %}" alt="Brownie">
+                        </div>
+                        <div class="menu-card-body">
+                            <div>
+                                <h4>Brownie</h4>
+                                <p>Casquinha crocante e interior macio de chocolate intenso.</p>
+                            </div>
+                            <a href="{% url 'interprises' %}" class="btn btn-sm btn-outline-dark rounded-pill px-3">Ver opções</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Banners -->
+    <section class="padoca-explore">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 reveal">
+                    <a href="{% url 'suppliers' %}" class="d-block">
+                        <div class="explore-card" style="background-image: url('{% static 'imgs/background_mid.png' %}');">
+                            <div class="explore-card-content">
+                                <h3>Ver Lojas Parceiras</h3>
+                                <p>Encontre fornecedores e unidades próximas de você.</p>
+                                <span class="btn-padoca py-2 px-4">Acessar Lojas <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 reveal">
+                    <a href="{% url 'photos' %}" class="d-block">
+                        <div class="explore-card" style="background-image: url('{% static 'imgs/background_img_bread.png' %}');">
+                            <div class="explore-card-content">
+                                <h3>Ver Fotos De Produtos</h3>
+                                <p>Confira nossa galeria de pães, pizzas, bolos e doces.</p>
+                                <span class="btn-padoca py-2 px-4">Abrir Galeria <i class="bi bi-images"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock content %}

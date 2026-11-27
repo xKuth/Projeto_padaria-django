@@ -1,56 +1,51 @@
-<!DOCTYPE html>
 {% extends 'html/bases.html' %}
 {% load static %}
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="{% static 'css/mobile.css'  %}" alt="css_max768">
-    <link rel="stylesheet" href="{% static 'css/desktop.css' %}" type="text/css" alt="css_max1300">
-    <title>Photos page</title>
-</head>
-<body>
-    {% block header %}
 
-    <main>
-        <nav class="navbar navbar-light bg-light" id="nav-enterprise"><!-- Nav the section main-->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Veja Melhores fotos dos produtos : <br>
-                    <i class="bi bi-geo-alt"> Fotos/empresas:</i></a>
+{% block title %}Padoca - Fotos de Produtos{% endblock title %}
+
+{% block content %}
+<main>
+    <section class="subpage-banner">
+        <div class="container hero-animate">
+            <h1>Galeria de Produtos</h1>
+            <p>Veja as melhores fotos das nossas lojas parceiras</p>
+        </div>
+    </section>
+
+    <section class="subpage-body">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="gallery-card">
+                        <img src="{% static 'imgs/pizza_photos_bg.png' %}" alt="Enterprise 1">
+                        <div class="p-4 text-center">
+                            <h4>Enterprise 1</h4>
+                            <p class="text-muted small mb-0">Pizzas italianas de longa fermentação e massas artesanais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="gallery-card">
+                        <img src="{% static 'imgs/pao.png' %}" alt="Enterprise 2">
+                        <div class="p-4 text-center">
+                            <h4>Enterprise 2</h4>
+                            <p class="text-muted small mb-0">Pães caseiros assados na hora com casca crocante.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="gallery-card">
+                        <img src="{% static 'imgs/croassant.png' %}" alt="Enterprise 3">
+                        <div class="p-4 text-center">
+                            <h4>Enterprise 3</h4>
+                            <p class="text-muted small mb-0">Croissants folhados e receitas clássicas de confeitaria.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav><!-- End nav section main-->
-        <section class="section_enterprise" id="Photos_bg"><!-- Start section imgs the photos -->
-            <div class="container"><!-- Start container the bootstrap5 -->
-
-                <div class="img-interprise"><!-- Div with all divs the imgs flex -->
-                    <div class="content_enterprise_photos"><!-- Div img 1 with text -->
-                        
-                        <h2 class="layer-enterprise">Enterprise 1</h2>
-                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
-
-                    </div>
-
-                    <div class="content_enterprise_photos"><!-- Div img 2 with text -->
-
-                        <h2 class="layer-enterprise">Enterprise 2</h2>
-                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
-
-                    </div>
-
-                    <div class="content_enterprise_photos"><!-- Div img 3 with text -->
-
-                        <h2 class="layer-enterprise">Enterprise 3</h2>
-                        <a href="#"><img class="enterprise_img" src="{% static 'imgs/pizza_photos_bg.png' %}" alt=""></a>
-
-                    </div>
-
-                </div><!-- End div with all divs the imgs flex -->
-            </div><!-- End container the bootstrap5 -->
-        </section><!-- End section imgs the photos -->
-    </main>
-    {% endblock header %}
-    {% block footer %}{% endblock footer %}
-    
-</body>
-</html>
+        </div>
+    </section>
+</main>
+{% endblock content %}

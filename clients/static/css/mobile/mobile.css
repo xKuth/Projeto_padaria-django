@@ -1,38 +1,105 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px){
-    /*nav-bar*/
-    nav#not_block, a.navbar-brand{
-        display: flex;
-    }
-    
-    ul#nav_not_vertical, li{
-        display: inline-block;
-        visibility: hidden;
-        list-style: none;       
+
+@media screen and (max-width: 991.98px) {
+    .padoca-navbar .navbar-collapse {
+        background-color: #1c1613;
+        margin-top: 0.75rem;
+        padding: 1rem;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /*section anuciment*/
-    .upper_main_img{
-        height: 50%;
-        width: 100%;
-        
+    .padoca-navbar .nav-link {
+        padding: 0.65rem 0.85rem;
+        border-radius: 8px;
     }
-    .text-img > h2{
+
+    .padoca-auth-actions {
+        margin-top: 0.85rem;
+        padding-top: 0.85rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .padoca-hero {
+        padding: 3.25rem 0;
         text-align: center;
     }
-    div.text-img > p{
-        text-align: center;
-        float: none;
 
-    }
-    img#pizza_anuciment{
-        display: block;
+    .padoca-hero h1 {
+        font-size: 2.45rem;
     }
 
-    .navbar-toggler{
-        display: flex;
-        margin: 2%;
+    .hero-actions {
+        justify-content: center;
     }
-    
-    
+
+    .hero-stage {
+        min-height: 260px;
+        margin-top: 1.5rem;
+    }
+
+    .hero-stage img {
+        max-height: 220px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .padoca-brand img {
+        height: 36px;
+    }
+
+    .padoca-brand-name {
+        font-size: 1.35rem;
+    }
+
+    .padoca-hero h1 {
+        font-size: 2rem;
+    }
+
+    .padoca-hero p {
+        font-size: 0.98rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .padoca-stats,
+    .padoca-story,
+    .padoca-products,
+    .subpage-body {
+        padding: 3rem 0;
+    }
+
+    .story-mosaic img {
+        height: 165px;
+    }
+
+    .story-mosaic .story-wide {
+        height: 170px;
+    }
+
+    .explore-card {
+        min-height: 215px;
+        padding: 1.5rem;
+    }
+
+    .subpage-banner {
+        padding: 3rem 0;
+    }
+
+    .subpage-banner h1 {
+        font-size: 2rem;
+    }
+
+    .back-to-top {
+        right: 14px;
+        bottom: 14px;
+        width: 40px;
+        height: 40px;
+    }
 }
